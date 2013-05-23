@@ -1,0 +1,177 @@
+Tmidithread
+v5
+r1
+cCheck dependencies
+cCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/i386/midithread.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/midithread.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/x86_64/midithread.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/midithread.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/i386/midithread normal i386
+cLd /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/x86_64/midithread normal x86_64
+cCreateUniversalBinary /Applications/MAMP/htdocs/www/labs/midi/test/Debug/midithread normal "i386 x86_64"
+cPhaseScriptExecution "CMake PostBuild Rules" /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Script-D80D0276F55B4953BDC25B0A.sh
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/Debug/midithread
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/i386/midithread
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/i386/midithread.LinkFileList
+c00000000517989BE000000000000007C
+t1366919614
+s124
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/i386/midithread.o
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/x86_64/midithread
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/x86_64/midithread.LinkFileList
+c00000000517989BE000000000000007E
+t1366919614
+s126
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/x86_64/midithread.o
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Script-D80D0276F55B4953BDC25B0A.sh
+c00000000517989BE00000000000000BD
+t1366919614
+s189
+
+N/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/pmutil.h
+c000000004AF19BCC0000000000001712
+t1257348044
+s5906
+
+N/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/portmidi.h
+c000000004B2149440000000000006F05
+t1260472644
+s28421
+
+N/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/midithread.c
+c000000004AB1182C0000000000002DDC
+t1253120044
+s11740
+i"stdio.h"
+i"stdlib.h"
+i"string.h"
+i"assert.h"
+i"portmidi.h"
+i"pmutil.h"
+i"porttime.h"
+
+N/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/porttime.h
+c000000004AF19BCC0000000000000904
+t1257348044
+s2308
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051760B3A00000000000000AA
+t1366690618
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/assert.h
+c00000000507881F00000000000000F6E
+t1350074864
+s3950
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h
+c00000000507881F10000000000004523
+t1350074865
+s17699
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdlib.h
+c00000000507881F10000000000003089
+t1350074865
+s12425
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/string.h
+c00000000507881F10000000000001A3A
+t1350074865
+s6714
+
+CBuild AST from /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/midithread.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies910ebb3ec129b741^e109c13ec129b741^---0#1#0#--18"Check dependencies36"406860F1-9940-412F-A165-05ADFCFFA13C-
+
+CCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/i386/midithread.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/midithread.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s388612414.746258
+e388612414.808290
+r1
+xCompileC
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/i386/midithread.o
+x/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/midithread.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/midithread.c8125bf3ec129b741^8e75d93ec129b741^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/midithread.c0000000000000000^2339"CompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/i386/midithread.o pm_test/midithread.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Applications/MAMP/htdocs/www/labs/midi/test/Debug/include -I/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common -I/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks -mmacosx-version-min=10.6 -DPM_CHECK_ERRORS=1 -DDEBUG -MMD -MT dependencies -MF /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/i386/midithread.d --serialize-diagnostics /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/i386/midithread.dia -c /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/midithread.c -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/i386/midithread.o36"8F157FFA-08E5-4D7B-87DA-6BB4780E5CFA-
+
+CCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/x86_64/midithread.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/midithread.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s388612414.746373
+e388612414.817264
+r1
+xCompileC
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/x86_64/midithread.o
+x/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/midithread.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/midithread.cfd2fbf3ec129b741^9886d93ec129b741^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/midithread.c0000000000000000^2353"CompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/x86_64/midithread.o pm_test/midithread.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Applications/MAMP/htdocs/www/labs/midi/test/Debug/include -I/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common -I/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/DerivedSources/x86_64 -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks -mmacosx-version-min=10.6 -DPM_CHECK_ERRORS=1 -DDEBUG -MMD -MT dependencies -MF /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/x86_64/midithread.d --serialize-diagnostics /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/x86_64/midithread.dia -c /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/midithread.c -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/x86_64/midithread.o36"2359075B-7738-4009-8C29-C1DD369B5258-
+
+CCreateUniversalBinary /Applications/MAMP/htdocs/www/labs/midi/test/Debug/midithread normal "i386 x86_64"
+s388612414.934123
+e388612414.949004
+r1
+xCreateUniversalBinary
+x/Applications/MAMP/htdocs/www/labs/midi/test/Debug/midithread
+xnormal
+xi386 x86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Create universal binary /Applications/MAMP/htdocs/www/labs/midi/test/Debug/midithreadfb3fef3ec129b741^9aebfc3ec129b741^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Applications/MAMP/htdocs/www/labs/midi/test/Debug/midithread000000000080d041^491"CreateUniversalBinary /Applications/MAMP/htdocs/www/labs/midi/test/Debug/midithread normal "i386 x86_64"    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    lipo -create /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/i386/midithread /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/x86_64/midithread -output /Applications/MAMP/htdocs/www/labs/midi/test/Debug/midithread36"978969E8-FDFB-4289-8D7A-C77911121477-
+
+CLd /Applications/MAMP/htdocs/www/labs/midi/test/Debug/midithread normal x86_64
+r0
+
+CLd /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/i386/midithread normal i386
+s388612414.819129
+e388612414.882033
+r1
+xLd
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/i386/midithread
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Link /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/i386/midithread3fc9d13ec129b741^62a1e23ec129b741^---0#0#0#--1192"Ld /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/i386/midithread normal i386    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks -filelist /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/i386/midithread.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Applications/MAMP/htdocs/www/labs/midi/test/Debug/libportmidi_s.a -framework CoreAudio -framework CoreFoundation -framework CoreMIDI -framework CoreServices -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/i386/midithread36"F090E412-9D08-4568-AB11-B80296942C84-
+
+CLd /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/x86_64/midithread normal x86_64
+s388612414.848816
+e388612414.918252
+r1
+xLd
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/x86_64/midithread
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Link /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/x86_64/midithread035fd93ec129b741^6bd3fc3ec129b741^---0#0#0#--1202"Ld /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/x86_64/midithread normal x86_64    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks -filelist /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/x86_64/midithread.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Applications/MAMP/htdocs/www/labs/midi/test/Debug/libportmidi_s.a -framework CoreAudio -framework CoreFoundation -framework CoreMIDI -framework CoreServices -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/x86_64/midithread36"8CE502EC-2235-4FD4-AA26-BBBD3D9C4BB5-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Script-D80D0276F55B4953BDC25B0A.sh
+s388612414.987327
+e388612415.048437
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Script-D80D0276F55B4953BDC25B0A.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Applications/MAMP/htdocs/www/labs/midi/test && make -C /Applications/MAMP/htdocs/www/labs/midi/test -f /Applications/MAMP/htdocs/www/labs/midi/test/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.midithread.Debug
+omake[1]: Nothing to be done for `PostBuild.midithread.Debug'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'fa41fd3ec129b741^098a173fc129b741^-332"echo "Depend check for xcode"Depend check for xcodecd /Applications/MAMP/htdocs/www/labs/midi/test && make -C /Applications/MAMP/htdocs/www/labs/midi/test -f /Applications/MAMP/htdocs/www/labs/midi/test/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.midithread.Debugmake[1]: Nothing to be done for `PostBuild.midithread.Debug'.4(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-388612415#0#30#-0#-----2@23"Depend check for xcode-388612415#30#23#-0#-----2@217"cd /Applications/MAMP/htdocs/www/labs/midi/test && make -C /Applications/MAMP/htdocs/www/labs/midi/test -f /Applications/MAMP/htdocs/www/labs/midi/test/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.midithread.Debug-388612415#53#217#-0#-----2@62"make[1]: Nothing to be done for `PostBuild.midithread.Debug'.-388612415#270#62#-0#-----0#0#0#--365"PhaseScriptExecution "CMake PostBuild Rules" /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Script-D80D0276F55B4953BDC25B0A.sh    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    /bin/sh -c /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Script-D80D0276F55B4953BDC25B0A.sh36"C14D3A4E-60C1-47EB-B408-24EB8E41D6D4-
+

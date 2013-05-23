@@ -1,0 +1,28 @@
+TALL_BUILD
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Applications/MAMP/htdocs/www/labs/midi/test/portmidi.build/Debug/ALL_BUILD.build/Script-C65A008A947547CE938BE7EB.sh
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/portmidi.build/Debug/ALL_BUILD.build/Script-C65A008A947547CE938BE7EB.sh
+c00000000517989BF00000000000000B2
+t1366919615
+s178
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd732693fc129b741^7d79693fc129b741^---0#1#0#--18"Check dependencies36"FB3709B8-E097-4081-91DB-E746F4DD90BD-
+
+CPhaseScriptExecution "CMake Rules" /Applications/MAMP/htdocs/www/labs/midi/test/portmidi.build/Debug/ALL_BUILD.build/Script-C65A008A947547CE938BE7EB.sh
+s388612415.415032
+e388612415.444528
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Applications/MAMP/htdocs/www/labs/midi/test/portmidi.build/Debug/ALL_BUILD.build/Script-C65A008A947547CE938BE7EB.sh
+oecho ""
+o
+oecho Build\ all\ projects
+oBuild all projects
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'84b86a3fc129b741^42cc713fc129b741^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-388612415#0#8#-0#-----2@26"echo Build\ all\ projects-388612415#9#26#-0#-----2@19"Build all projects-388612415#35#19#-0#-----0#0#0#--337"PhaseScriptExecution "CMake Rules" /Applications/MAMP/htdocs/www/labs/midi/test/portmidi.build/Debug/ALL_BUILD.build/Script-C65A008A947547CE938BE7EB.sh    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    /bin/sh -c /Applications/MAMP/htdocs/www/labs/midi/test/portmidi.build/Debug/ALL_BUILD.build/Script-C65A008A947547CE938BE7EB.sh36"6E1C1C32-088E-4056-9FBC-BC6D6FE04291-
+

@@ -1,0 +1,536 @@
+Tportmidi-static
+v5
+r1
+cCheck dependencies
+cCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmmacosxcm.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmacosxcm.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmmac.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmac.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/readbinaryplist.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/readbinaryplist.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/finddefault.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/finddefault.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/ptmacosx_mach.o /Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/ptmacosx_mach.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmutil.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/pmutil.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/portmidi.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/portmidi.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmmacosxcm.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmacosxcm.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmmac.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmac.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/readbinaryplist.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/readbinaryplist.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/finddefault.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/finddefault.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/ptmacosx_mach.o /Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/ptmacosx_mach.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmutil.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/pmutil.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/portmidi.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/portmidi.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/libportmidi_s.a normal x86_64
+cLibtool /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/libportmidi_s.a normal i386
+cCreateUniversalBinary /Applications/MAMP/htdocs/www/labs/midi/test/Debug/libportmidi_s.a normal "i386 x86_64"
+cPhaseScriptExecution "CMake PostBuild Rules" /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Script-49261C78EC474D3F8DEB2C6A.sh
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/Debug/libportmidi_s.a
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/finddefault.o
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/libportmidi_s.a
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmmac.o
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmmacosxcm.o
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmutil.o
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/portmidi.o
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/portmidi_s.LinkFileList
+c00000000517989BD0000000000000393
+t1366919613
+s915
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/ptmacosx_mach.o
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/readbinaryplist.o
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/finddefault.o
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/libportmidi_s.a
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmmac.o
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmmacosxcm.o
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmutil.o
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/portmidi.o
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/portmidi_s.LinkFileList
+c00000000517989BD00000000000003A1
+t1366919613
+s929
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/ptmacosx_mach.o
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/readbinaryplist.o
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Script-49261C78EC474D3F8DEB2C6A.sh
+c00000000517989BD00000000000000C6
+t1366919613
+s198
+
+N/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/pminternal.h
+c000000004AD5547A000000000000211F
+t1255494778
+s8479
+
+N/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/pmutil.c
+c000000004AF19BCC00000000000020E7
+t1257348044
+s8423
+
+N/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/pmutil.h
+c000000004AF19BCC0000000000001712
+t1257348044
+s5906
+
+N/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/portmidi.c
+c000000004F9B713F0000000000009932
+t1335587135
+s39218
+
+N/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/portmidi.h
+c000000004B2149440000000000006F05
+t1260472644
+s28421
+
+N/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/finddefault.c
+c000000004A187E220000000000000713
+t1243119138
+s1811
+
+N/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmac.c
+c00000000494F1BD200000000000005E0
+t1229921234
+s1504
+
+N/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmac.h
+c0000000044CE6B1E000000000000006E
+t1154378526
+s110
+
+N/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmacosxcm.c
+c0000000050C0DFC800000000000080CD
+t1354817480
+s32973
+i<stdlib.h>
+i"portmidi.h"
+i"pmutil.h"
+i"pminternal.h"
+i"porttime.h"
+i"pmmac.h"
+i"pmmacosxcm.h"
+i<stdio.h>
+i<string.h>
+i<CoreServices/CoreServices.h>
+i<CoreMIDI/MIDIServices.h>
+i<CoreAudio/HostTime.h>
+i<unistd.h>
+
+N/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmacosxcm.h
+c000000004863E13900000000000000AD
+t1214505273
+s173
+
+N/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/readbinaryplist.c
+c000000004CAB73250000000000008937
+t1286304549
+s35127
+
+N/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/porttime.h
+c000000004AF19BCC0000000000000904
+t1257348044
+s2308
+
+N/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/ptmacosx_mach.c
+c000000004AAA5B3D0000000000000EC6
+t1252678461
+s3782
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051760B3A00000000000000AA
+t1366690618
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/HostTime.h
+c00000000507881ED0000000000000F8C
+t1350074861
+s3980
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers/MIDIServices.h
+c00000000507881EE000000000001084E
+t1350074862
+s67662
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
+c00000000507881EE0000000000000421
+t1350074862
+s1057
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h
+c00000000507881F10000000000004523
+t1350074865
+s17699
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdlib.h
+c00000000507881F10000000000003089
+t1350074865
+s12425
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/string.h
+c00000000507881F10000000000001A3A
+t1350074865
+s6714
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/unistd.h
+c00000000507881F10000000000006762
+t1350074865
+s26466
+
+CBuild AST from /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/pmutil.c
+r0
+
+CBuild AST from /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/portmidi.c
+r0
+
+CBuild AST from /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/finddefault.c
+r0
+
+CBuild AST from /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmac.c
+r0
+
+CBuild AST from /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmacosxcm.c
+r0
+
+CBuild AST from /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/readbinaryplist.c
+r0
+
+CBuild AST from /Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/ptmacosx_mach.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesfa7b2d3dc129b741^890b303dc129b741^---0#1#0#--18"Check dependencies36"6DC771EB-970E-4DC3-8DE5-A412A0F5DED5-
+
+CCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/finddefault.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/finddefault.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s388612413.196078
+e388612413.291457
+r1
+xCompileC
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/finddefault.o
+x/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/finddefault.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/finddefault.c9546343dc129b741^bfd54a3dc129b741^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/finddefault.c0000000000000000^2667"CompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/finddefault.o pm_mac/finddefault.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Applications/MAMP/htdocs/www/labs/midi/test/Debug/include -I/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common -I/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/Developer/Headers/FlatCarbon -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks -mmacosx-version-min=10.6 -DPM_CHECK_ERRORS=1 -DDEBUG -MMD -MT dependencies -MF /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/finddefault.d --serialize-diagnostics /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/finddefault.dia -c /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/finddefault.c -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/finddefault.o36"4C4F41C2-BA75-4ADD-A91D-1714FEF3B2A4-
+
+CCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmmac.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmac.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s388612413.195381
+e388612413.263673
+r1
+xCompileC
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmmac.o
+x/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmac.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmac.c6c23323dc129b741^7aaa433dc129b741^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmac.c0000000000000000^2631"CompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmmac.o pm_mac/pmmac.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Applications/MAMP/htdocs/www/labs/midi/test/Debug/include -I/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common -I/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/Developer/Headers/FlatCarbon -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks -mmacosx-version-min=10.6 -DPM_CHECK_ERRORS=1 -DDEBUG -MMD -MT dependencies -MF /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmmac.d --serialize-diagnostics /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmmac.dia -c /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmac.c -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmmac.o36"41344318-EAF0-47D1-8C6F-226D702FFA08-
+
+CCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmmacosxcm.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmacosxcm.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s388612413.195026
+e388612413.780595
+r1
+xCompileC
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmmacosxcm.o
+x/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmacosxcm.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmacosxcm.c4511323dc129b741^3947053ec129b741^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmacosxcm.c0000000000000000^2661"CompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmmacosxcm.o pm_mac/pmmacosxcm.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Applications/MAMP/htdocs/www/labs/midi/test/Debug/include -I/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common -I/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/Developer/Headers/FlatCarbon -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks -mmacosx-version-min=10.6 -DPM_CHECK_ERRORS=1 -DDEBUG -MMD -MT dependencies -MF /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmmacosxcm.d --serialize-diagnostics /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmmacosxcm.dia -c /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmacosxcm.c -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmmacosxcm.o36"D3271BF5-12A6-4602-B6CA-0BF262190C3A-
+
+CCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmutil.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/pmutil.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s388612413.203906
+e388612413.315956
+r1
+xCompileC
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmutil.o
+x/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/pmutil.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/pmutil.c6380343dc129b741^68eb503dc129b741^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/pmutil.c0000000000000000^2643"CompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmutil.o pm_common/pmutil.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Applications/MAMP/htdocs/www/labs/midi/test/Debug/include -I/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common -I/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/Developer/Headers/FlatCarbon -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks -mmacosx-version-min=10.6 -DPM_CHECK_ERRORS=1 -DDEBUG -MMD -MT dependencies -MF /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmutil.d --serialize-diagnostics /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmutil.dia -c /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/pmutil.c -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/pmutil.o36"7B88305E-8C29-4CAD-828B-3C16000C9451-
+
+CCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/portmidi.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/portmidi.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s388612413.203968
+e388612413.362707
+r1
+xCompileC
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/portmidi.o
+x/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/portmidi.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/portmidi.c32aa343dc129b741^71595d3dc129b741^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/portmidi.c0000000000000000^2655"CompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/portmidi.o pm_common/portmidi.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Applications/MAMP/htdocs/www/labs/midi/test/Debug/include -I/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common -I/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/Developer/Headers/FlatCarbon -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks -mmacosx-version-min=10.6 -DPM_CHECK_ERRORS=1 -DDEBUG -MMD -MT dependencies -MF /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/portmidi.d --serialize-diagnostics /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/portmidi.dia -c /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/portmidi.c -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/portmidi.o36"D766BC72-967B-4771-B9C6-9CAF9408747A-
+
+CCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/ptmacosx_mach.o /Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/ptmacosx_mach.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s388612413.203892
+e388612413.361345
+r1
+xCompileC
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/ptmacosx_mach.o
+x/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/ptmacosx_mach.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/ptmacosx_mach.c:17:9: warning: 'NSEC_PER_MSEC' macro redefined
+o#define NSEC_PER_MSEC 1000000
+o        ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/mach/clock_types.h:87:9: note: previous definition is here
+o#define NSEC_PER_MSEC   1000000ull      /* nanoseconds per millisecond */
+o        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/ptmacosx_mach.c5071343dc129b741^768b5c3dc129b741^-433"/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/ptmacosx_mach.c:17:9: warning: 'NSEC_PER_MSEC' macro redefined#define NSEC_PER_MSEC 1000000        ^/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/mach/clock_types.h:87:9: note: previous definition is here#define NSEC_PER_MSEC   1000000ull      /* nanoseconds per millisecond */        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@31"'NSEC_PER_MSEC' macro redefined-388612413#18446744073709551615#0#1(2@27"Previous definition is here-388612413#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@145"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/mach/clock_types.h0000000000000000^86#8#86#8#2890#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@86"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/ptmacosx_mach.c0000000000000000^16#8#16#8#347#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@86"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/ptmacosx_mach.c0000000000000000^2683"CompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/ptmacosx_mach.o porttime/ptmacosx_mach.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Applications/MAMP/htdocs/www/labs/midi/test/Debug/include -I/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common -I/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/Developer/Headers/FlatCarbon -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks -mmacosx-version-min=10.6 -DPM_CHECK_ERRORS=1 -DDEBUG -MMD -MT dependencies -MF /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/ptmacosx_mach.d --serialize-diagnostics /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/ptmacosx_mach.dia -c /Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/ptmacosx_mach.c -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/ptmacosx_mach.o36"6B668F6F-EE8D-45F7-920A-C9343AC57671-
+
+CCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/readbinaryplist.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/readbinaryplist.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s388612413.195458
+e388612414.182971
+r1
+xCompileC
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/readbinaryplist.o
+x/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/readbinaryplist.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/readbinaryplist.c:87:9: warning: 'MAXPATHLEN' macro redefined
+o#define MAXPATHLEN 256
+o        ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/param.h:199:9: note: previous definition is here
+o#define MAXPATHLEN      PATH_MAX
+o        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/readbinaryplist.c4a27323dc129b741^a27e2f3ec129b741^-376"/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/readbinaryplist.c:87:9: warning: 'MAXPATHLEN' macro redefined#define MAXPATHLEN 256        ^/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/param.h:199:9: note: previous definition is here#define MAXPATHLEN      PATH_MAX        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@28"'MAXPATHLEN' macro redefined-388612414#18446744073709551615#0#1(2@27"Previous definition is here-388612414#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@138"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/param.h0000000000000000^198#8#198#8#8063#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@86"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/readbinaryplist.c0000000000000000^86#8#86#8#3674#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@86"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/readbinaryplist.c0000000000000000^2691"CompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/readbinaryplist.o pm_mac/readbinaryplist.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Applications/MAMP/htdocs/www/labs/midi/test/Debug/include -I/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common -I/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/Developer/Headers/FlatCarbon -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks -mmacosx-version-min=10.6 -DPM_CHECK_ERRORS=1 -DDEBUG -MMD -MT dependencies -MF /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/readbinaryplist.d --serialize-diagnostics /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/readbinaryplist.dia -c /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/readbinaryplist.c -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/readbinaryplist.o36"44B751D2-CDBC-425B-9DC0-34AA51624054-
+
+CCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/finddefault.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/finddefault.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s388612413.318130
+e388612413.427366
+r1
+xCompileC
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/finddefault.o
+x/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/finddefault.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/finddefault.c22c1543dc129b741^d6706d3dc129b741^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/finddefault.c0000000000000000^2681"CompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/finddefault.o pm_mac/finddefault.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Applications/MAMP/htdocs/www/labs/midi/test/Debug/include -I/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common -I/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/Developer/Headers/FlatCarbon -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources/x86_64 -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks -mmacosx-version-min=10.6 -DPM_CHECK_ERRORS=1 -DDEBUG -MMD -MT dependencies -MF /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/finddefault.d --serialize-diagnostics /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/finddefault.dia -c /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/finddefault.c -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/finddefault.o36"9D10369C-2810-49BE-8D49-4C8EEE6D3313-
+
+CCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmmac.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmac.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s388612413.276385
+e388612413.345567
+r1
+xCompileC
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmmac.o
+x/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmac.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmac.cebe2463dc129b741^be86583dc129b741^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmac.c0000000000000000^2645"CompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmmac.o pm_mac/pmmac.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Applications/MAMP/htdocs/www/labs/midi/test/Debug/include -I/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common -I/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/Developer/Headers/FlatCarbon -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources/x86_64 -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks -mmacosx-version-min=10.6 -DPM_CHECK_ERRORS=1 -DDEBUG -MMD -MT dependencies -MF /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmmac.d --serialize-diagnostics /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmmac.dia -c /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmac.c -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmmac.o36"D82DE69B-C816-4FC6-9284-F0AED1C68171-
+
+CCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmmacosxcm.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmacosxcm.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s388612413.204620
+e388612413.780294
+r1
+xCompileC
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmmacosxcm.o
+x/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmacosxcm.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmacosxcm.ceaae343dc129b741^f04f053ec129b741^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmacosxcm.c0000000000000000^2675"CompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmmacosxcm.o pm_mac/pmmacosxcm.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Applications/MAMP/htdocs/www/labs/midi/test/Debug/include -I/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common -I/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/Developer/Headers/FlatCarbon -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources/x86_64 -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks -mmacosx-version-min=10.6 -DPM_CHECK_ERRORS=1 -DDEBUG -MMD -MT dependencies -MF /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmmacosxcm.d --serialize-diagnostics /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmmacosxcm.dia -c /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/pmmacosxcm.c -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmmacosxcm.o36"D278DA76-078F-44EA-BA4B-9397BA33BD98-
+
+CCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmutil.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/pmutil.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s388612413.370470
+e388612413.450636
+r1
+xCompileC
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmutil.o
+x/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/pmutil.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/pmutil.cbef85e3dc129b741^359b733dc129b741^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/pmutil.c0000000000000000^2657"CompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmutil.o pm_common/pmutil.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Applications/MAMP/htdocs/www/labs/midi/test/Debug/include -I/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common -I/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/Developer/Headers/FlatCarbon -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources/x86_64 -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks -mmacosx-version-min=10.6 -DPM_CHECK_ERRORS=1 -DDEBUG -MMD -MT dependencies -MF /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmutil.d --serialize-diagnostics /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmutil.dia -c /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/pmutil.c -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/pmutil.o36"C7DE3801-92E3-49E3-8050-32518B8D1EF4-
+
+CCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/portmidi.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/portmidi.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s388612413.371172
+e388612413.477150
+r1
+xCompileC
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/portmidi.o
+x/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/portmidi.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/portmidi.c9faf613dc129b741^f86b7a3dc129b741^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/portmidi.c0000000000000000^2669"CompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/portmidi.o pm_common/portmidi.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Applications/MAMP/htdocs/www/labs/midi/test/Debug/include -I/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common -I/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/Developer/Headers/FlatCarbon -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources/x86_64 -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks -mmacosx-version-min=10.6 -DPM_CHECK_ERRORS=1 -DDEBUG -MMD -MT dependencies -MF /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/portmidi.d --serialize-diagnostics /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/portmidi.dia -c /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/portmidi.c -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/portmidi.o36"08A939BF-AC3B-4ED5-9688-5D2E642E7806-
+
+CCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/ptmacosx_mach.o /Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/ptmacosx_mach.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s388612413.347331
+e388612413.520187
+r1
+xCompileC
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/ptmacosx_mach.o
+x/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/ptmacosx_mach.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/ptmacosx_mach.c:17:9: warning: 'NSEC_PER_MSEC' macro redefined
+o#define NSEC_PER_MSEC 1000000
+o        ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/mach/clock_types.h:87:9: note: previous definition is here
+o#define NSEC_PER_MSEC   1000000ull      /* nanoseconds per millisecond */
+o        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/ptmacosx_mach.c0b0c593dc129b741^fddaa23dc129b741^-433"/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/ptmacosx_mach.c:17:9: warning: 'NSEC_PER_MSEC' macro redefined#define NSEC_PER_MSEC 1000000        ^/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/mach/clock_types.h:87:9: note: previous definition is here#define NSEC_PER_MSEC   1000000ull      /* nanoseconds per millisecond */        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@31"'NSEC_PER_MSEC' macro redefined-388612413#18446744073709551615#0#1(2@27"Previous definition is here-388612413#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@145"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/mach/clock_types.h0000000000000000^86#8#86#8#2890#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@86"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/ptmacosx_mach.c0000000000000000^16#8#16#8#347#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@86"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/ptmacosx_mach.c0000000000000000^2697"CompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/ptmacosx_mach.o porttime/ptmacosx_mach.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Applications/MAMP/htdocs/www/labs/midi/test/Debug/include -I/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common -I/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/Developer/Headers/FlatCarbon -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources/x86_64 -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks -mmacosx-version-min=10.6 -DPM_CHECK_ERRORS=1 -DDEBUG -MMD -MT dependencies -MF /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/ptmacosx_mach.d --serialize-diagnostics /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/ptmacosx_mach.dia -c /Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/ptmacosx_mach.c -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/ptmacosx_mach.o36"6B7B2FE5-3AE8-40D5-8717-60383FD92334-
+
+CCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/readbinaryplist.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/readbinaryplist.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s388612413.300323
+e388612414.060078
+r1
+xCompileC
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/readbinaryplist.o
+x/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/readbinaryplist.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/readbinaryplist.c:87:9: warning: 'MAXPATHLEN' macro redefined
+o#define MAXPATHLEN 256
+o        ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/param.h:199:9: note: previous definition is here
+o#define MAXPATHLEN      PATH_MAX
+o        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/readbinaryplist.cc614503dc129b741^d2730f3ec129b741^-376"/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/readbinaryplist.c:87:9: warning: 'MAXPATHLEN' macro redefined#define MAXPATHLEN 256        ^/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/param.h:199:9: note: previous definition is here#define MAXPATHLEN      PATH_MAX        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@28"'MAXPATHLEN' macro redefined-388612414#18446744073709551615#0#1(2@27"Previous definition is here-388612414#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@138"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/param.h0000000000000000^198#8#198#8#8063#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@86"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/readbinaryplist.c0000000000000000^86#8#86#8#3674#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@86"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/readbinaryplist.c0000000000000000^2705"CompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/readbinaryplist.o pm_mac/readbinaryplist.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Applications/MAMP/htdocs/www/labs/midi/test/Debug/include -I/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common -I/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/Developer/Headers/FlatCarbon -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources/x86_64 -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks -mmacosx-version-min=10.6 -DPM_CHECK_ERRORS=1 -DDEBUG -MMD -MT dependencies -MF /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/readbinaryplist.d --serialize-diagnostics /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/readbinaryplist.dia -c /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_mac/readbinaryplist.c -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/readbinaryplist.o36"A88C5DC9-C4A4-4E4F-9D1E-F9336ED540F4-
+
+CCreateUniversalBinary /Applications/MAMP/htdocs/www/labs/midi/test/Debug/libportmidi_s.a normal "i386 x86_64"
+s388612414.258133
+e388612414.304664
+r1
+xCreateUniversalBinary
+x/Applications/MAMP/htdocs/www/labs/midi/test/Debug/libportmidi_s.a
+xnormal
+xi386 x86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Create universal binary /Applications/MAMP/htdocs/www/labs/midi/test/Debug/libportmidi_s.ac72d423ec129b741^f7cd513ec129b741^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Applications/MAMP/htdocs/www/labs/midi/test/Debug/libportmidi_s.a000000000080d041^523"CreateUniversalBinary /Applications/MAMP/htdocs/www/labs/midi/test/Debug/libportmidi_s.a normal "i386 x86_64"    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    libtool -static /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/libportmidi_s.a /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/libportmidi_s.a -o /Applications/MAMP/htdocs/www/labs/midi/test/Debug/libportmidi_s.a36"4F5FA649-3369-48F1-83B0-053C24B644E5-
+
+CLibtool /Applications/MAMP/htdocs/www/labs/midi/test/Debug/libportmidi_s.a normal x86_64
+r0
+
+CLibtool /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/libportmidi_s.a normal i386
+s388612414.224481
+e388612414.245024
+r1
+xLibtool
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/libportmidi_s.a
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection153"Libtool /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/libportmidi_s.a normal i3863f8f393ec129b741^40bd513ec129b741^---0#0#0#--824"Libtool /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/libportmidi_s.a normal i386    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Applications/MAMP/htdocs/www/labs/midi/test/Debug -filelist /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/portmidi_s.LinkFileList -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/i386/libportmidi_s.a36"D9E301F5-14A3-4FB9-AAF0-6E8D2B87DD68-
+
+CLibtool /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/libportmidi_s.a normal x86_64
+s388612414.113380
+e388612414.152135
+r1
+xLibtool
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/libportmidi_s.a
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection157"Libtool /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/libportmidi_s.a normal x86_642a1c1d3ec129b741^b937273ec129b741^---0#0#0#--834"Libtool /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/libportmidi_s.a normal x86_64    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Applications/MAMP/htdocs/www/labs/midi/test/Debug -filelist /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/portmidi_s.LinkFileList -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Objects-normal/x86_64/libportmidi_s.a36"AEBC9591-029B-4F67-8C86-4A20FD8C810D-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Script-49261C78EC474D3F8DEB2C6A.sh
+s388612414.483575
+e388612414.689788
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Script-49261C78EC474D3F8DEB2C6A.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Applications/MAMP/htdocs/www/labs/midi/test && make -C /Applications/MAMP/htdocs/www/labs/midi/test -f /Applications/MAMP/htdocs/www/labs/midi/test/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.portmidi-static.Debug
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/latency
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/latency.build/Objects-normal/i386/latency
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/latency.build/Objects-normal/ppc/latency
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/latency.build/Objects-normal/x86_64/latency
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/midiclock
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midiclock.build/Objects-normal/i386/midiclock
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midiclock.build/Objects-normal/ppc/midiclock
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midiclock.build/Objects-normal/x86_64/midiclock
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/midithread
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/i386/midithread
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/ppc/midithread
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/x86_64/midithread
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/midithru
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithru.build/Objects-normal/i386/midithru
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithru.build/Objects-normal/ppc/midithru
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithru.build/Objects-normal/x86_64/midithru
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/mm
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/i386/mm
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/ppc/mm
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/x86_64/mm
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/qtest
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/qtest.build/Objects-normal/i386/qtest
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/qtest.build/Objects-normal/ppc/qtest
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/qtest.build/Objects-normal/x86_64/qtest
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/sysex
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/sysex.build/Objects-normal/i386/sysex
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/sysex.build/Objects-normal/ppc/sysex
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/sysex.build/Objects-normal/x86_64/sysex
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/test
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/test.build/Objects-normal/i386/test
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/test.build/Objects-normal/ppc/test
+o/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/test.build/Objects-normal/x86_64/test
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'78607c3ec129b741^4a44b83ec129b741^-3849"echo "Depend check for xcode"Depend check for xcodecd /Applications/MAMP/htdocs/www/labs/midi/test && make -C /Applications/MAMP/htdocs/www/labs/midi/test -f /Applications/MAMP/htdocs/www/labs/midi/test/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.portmidi-static.Debug/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/latency/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/latency.build/Objects-normal/i386/latency/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/latency.build/Objects-normal/ppc/latency/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/latency.build/Objects-normal/x86_64/latency/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/midiclock/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midiclock.build/Objects-normal/i386/midiclock/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midiclock.build/Objects-normal/ppc/midiclock/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midiclock.build/Objects-normal/x86_64/midiclock/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/midithread/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/i386/midithread/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/ppc/midithread/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/x86_64/midithread/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/midithru/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithru.build/Objects-normal/i386/midithru/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithru.build/Objects-normal/ppc/midithru/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithru.build/Objects-normal/x86_64/midithru/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/mm/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/i386/mm/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/ppc/mm/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/x86_64/mm/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/qtest/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/qtest.build/Objects-normal/i386/qtest/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/qtest.build/Objects-normal/ppc/qtest/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/qtest.build/Objects-normal/x86_64/qtest/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/sysex/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/sysex.build/Objects-normal/i386/sysex/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/sysex.build/Objects-normal/ppc/sysex/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/sysex.build/Objects-normal/x86_64/sysex/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/test/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/test.build/Objects-normal/i386/test/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/test.build/Objects-normal/ppc/test/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/test.build/Objects-normal/x86_64/test35(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-388612414#0#30#-0#-----2@23"Depend check for xcode-388612414#30#23#-0#-----2@222"cd /Applications/MAMP/htdocs/www/labs/midi/test && make -C /Applications/MAMP/htdocs/www/labs/midi/test -f /Applications/MAMP/htdocs/www/labs/midi/test/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.portmidi-static.Debug-388612414#53#222#-0#-----2@70"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/latency-388612414#275#70#-0#-----2@127"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/latency.build/Objects-normal/i386/latency-388612414#345#127#-0#-----2@126"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/latency.build/Objects-normal/ppc/latency-388612414#472#126#-0#-----2@129"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/latency.build/Objects-normal/x86_64/latency-388612414#598#129#-0#-----2@72"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/midiclock-388612414#727#72#-0#-----2@131"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midiclock.build/Objects-normal/i386/midiclock-388612414#799#131#-0#-----2@130"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midiclock.build/Objects-normal/ppc/midiclock-388612414#930#130#-0#-----2@133"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midiclock.build/Objects-normal/x86_64/midiclock-388612414#1060#133#-0#-----2@73"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/midithread-388612414#1193#73#-0#-----2@133"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/i386/midithread-388612414#1266#133#-0#-----2@132"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/ppc/midithread-388612414#1399#132#-0#-----2@135"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithread.build/Objects-normal/x86_64/midithread-388612414#1531#135#-0#-----2@71"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/midithru-388612414#1666#71#-0#-----2@129"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithru.build/Objects-normal/i386/midithru-388612414#1737#129#-0#-----2@128"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithru.build/Objects-normal/ppc/midithru-388612414#1866#128#-0#-----2@131"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/midithru.build/Objects-normal/x86_64/midithru-388612414#1994#131#-0#-----2@65"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/mm-388612414#2125#65#-0#-----2@117"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/i386/mm-388612414#2190#117#-0#-----2@116"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/ppc/mm-388612414#2307#116#-0#-----2@119"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/x86_64/mm-388612414#2423#119#-0#-----2@68"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/qtest-388612414#2542#68#-0#-----2@123"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/qtest.build/Objects-normal/i386/qtest-388612414#2610#123#-0#-----2@122"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/qtest.build/Objects-normal/ppc/qtest-388612414#2733#122#-0#-----2@125"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/qtest.build/Objects-normal/x86_64/qtest-388612414#2855#125#-0#-----2@68"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/sysex-388612414#2980#68#-0#-----2@123"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/sysex.build/Objects-normal/i386/sysex-388612414#3048#123#-0#-----2@122"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/sysex.build/Objects-normal/ppc/sysex-388612414#3171#122#-0#-----2@125"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/sysex.build/Objects-normal/x86_64/sysex-388612414#3293#125#-0#-----2@67"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/Debug/test-388612414#3418#67#-0#-----2@121"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/test.build/Objects-normal/i386/test-388612414#3485#121#-0#-----2@120"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/test.build/Objects-normal/ppc/test-388612414#3606#120#-0#-----2@123"/bin/rm -f /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/test.build/Objects-normal/x86_64/test-388612414#3726#123#-0#-----0#0#0#--379"PhaseScriptExecution "CMake PostBuild Rules" /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Script-49261C78EC474D3F8DEB2C6A.sh    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    /bin/sh -c /Applications/MAMP/htdocs/www/labs/midi/test/pm_common/portmidi.build/Debug/portmidi-static.build/Script-49261C78EC474D3F8DEB2C6A.sh36"A49C59F1-22D7-436F-916D-9A6537C37077-
+

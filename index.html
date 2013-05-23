@@ -1,0 +1,59 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
+<script src="md5.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('button.click').click(function(){
+    var pass = $('input[name="pass"]').val();
+    pass = '/gif/'+ MD5(pass)+'.gif';
+    $('img[alt="have fun"]').attr('src',pass);
+  });
+});
+
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Minhao Xi</title>
+<style type="text/css">
+li{
+  list-style-type:none;
+}
+a{
+  color:#39c!important;
+  text-decoration: none !important;
+}
+a:hover{
+  text-decoration: underline !important;
+}
+.new_stuff{
+  background:yellow;
+  color:#39c!important;
+  margin-right:5px;
+}
+</style></head>
+
+<body>
+
+<div class="container">
+  <div class="content">
+    <h1>Hello</h1>
+    <p>&nbsp;Welcome to my personal website</p>
+    <input type="password" name="pass">
+    <button class="click">Click me to see FUNNY STUFF</button>
+    <img src="ultra_fast.gif" alt="have fun">
+    <ul>
+      <li><a href="aopp_tool/file_m.php"><mark class="new_stuff">NEW</mark>Aopp's mplus report tool</a></li>
+      <li><a href="labs/sudoku/sudoku.php" target="_blank">sudoku tool</a></li> 
+      <li><a href="labs/sudoku/sudoku.php?lang=cn" target="_blank">解数独（中文）</a></li>     
+      <li><a href="aopp_tool/value_labels.php" target="_blank">aopp's value tool</a></li>  
+      <li><a href="yanslab" target="_blank">yanslab</a></li>
+      <li><a href="labs/color/color_tool.html" target="_blank">Lab---&gt;color</a></li>
+      <li><a href="labs/CTA/" target="_blank">CTA</a></li>
+    </ul>
+</div>
+
+  <!-- end .container --></div>
+
+
+</body></html>

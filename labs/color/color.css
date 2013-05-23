@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*color.css for color lab*/
+
+#output1{
+	position:relative;
+	width:300px;
+	height:300px;
+	margin:100px;
+	background-color:#356096;
+}
+
+#form1{
+	position:relative;
+}
+.sliders {
+	position:relative;
+		width: 360px;
+		margin: 15px;
+}
+
+#slider_Red .ui-slider-range { background: #ef2929; }
+#slider_Red .ui-slider-handle { border-color: #ef2929; }
+#slider_Gree .ui-slider-range { background: #8ae234; }
+#slider_Gree .ui-slider-handle { border-color: #8ae234; }
+#slider_Blue .ui-slider-range { background: #729fcf; }
+#slider_Blue .ui-slider-handle { border-color: #729fcf; }
+
+#slider_Hue .ui-slider-range { background: #FF0000; }
+#slider_Hue .ui-slider-handle { border-color: #FF0000; }
+#slider_Satu .ui-slider-range { background: #FF0000; }
+#slider_Satu .ui-slider-handle { border-color: #FF0000; }
+#slider_VB .ui-slider-range { background: #EEEEEE; }
+#slider_VB .ui-slider-handle { border-color: #EEEEEE; }
+
+#slider_Cyan .ui-slider-range { background: #00FFFF; }
+#slider_Cyan .ui-slider-handle { border-color: #00FFFF; }
+#slider_Mage .ui-slider-range { background: #FF00FF; }
+#slider_Mage .ui-slider-handle { border-color: #FF00FF; }
+#slider_Yell .ui-slider-range { background: #FFFF00; }
+#slider_Yell .ui-slider-handle { border-color: #FFFF00; }
+#slider_Blac .ui-slider-range { background: #222222; }
+#slider_Blac .ui-slider-handle { border-color: #222222; }

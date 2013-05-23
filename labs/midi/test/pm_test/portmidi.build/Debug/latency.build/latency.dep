@@ -1,0 +1,5 @@
+ffffffffffffffffffffffffffffffff c950a5563f543c57f76a2ade7ade76d4 ffffffffffffffffffffffffffffffff 0 /Applications/MAMP/htdocs/www/labs/midi/test/Debug/latency
+ffffffffffffffffffffffffffffffff 7891b74fd9c1f2a3807612673b90577d ffffffffffffffffffffffffffffffff 0 /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/latency.build/Objects-normal/i386/latency
+ffffffffffffffffffffffffffffffff 6ceb64a67260e8a5566b23e1eb0f5318 ffffffffffffffffffffffffffffffff 0 /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/latency.build/Objects-normal/x86_64/latency
+000000004b61caa50000000000002129 fde898ec367618915a12afa1f56875b4 ffffffffffffffffffffffffffffffff 0 /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/latency.build/Objects-normal/i386/latency.o
+000000004b61caa50000000000002129 e52a50d2f3473d1075778942bb497c5d ffffffffffffffffffffffffffffffff 0 /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/latency.build/Objects-normal/x86_64/latency.o

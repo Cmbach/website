@@ -1,0 +1,266 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+li{
+	padding-top:8px;
+}
+
+body {
+	/* font */
+	background-color:#212121;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-size:18px;
+}
+
+p:first-letter
+{ 
+	font-size:180%;
+}
+
+a:first-letter
+{
+	font-size:inherit;
+}
+
+a
+{
+	text-decoration:none;
+}
+a:link {color:#0077A2;}      
+a:visited {color:#0077A2;}  
+a:hover {color:#6CF;}  
+a:active {color:#0077A2;}  
+h1,h2 p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 0px;
+	padding-left: 0px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+	text-wrap:none;
+}
+#home_content h2,#grad_content h2{
+	margin:20px 0px 20px 0px;
+	background:no-repeat right center url(images/down.png);
+	cursor:pointer;
+	border-left: 1px #EEE solid;
+  border-top: 1px #eee solid;
+  padding: 0px 8px;
+}
+
+#home_content h2.hint,#grad_content h2.hint{
+	margin:20px 0px 20px 0px;
+	background:no-repeat right center url(images/up.png);
+	box-shadow: 5px 5px 5px #999;
+  
+	cursor:pointer;
+}
+
+h1#title{
+	padding-top:20px;
+	text-align:center;
+	color:#EDE8E1;
+	font-size:48px;
+	z-index:5;
+	}
+	
+
+.main {
+	width: 960px;
+	background: #ECD7BC;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+
+.head {
+	background: #9D3732;
+	text-align:center;
+	height: 100px;
+	z-index: 2;
+}
+
+.head1 {
+	background: #9D3732;
+	background-image:url(images/children.jpg);
+	text-align:center;
+	height: 100px;
+	z-index: 2;
+}
+
+.left {
+	float: left;
+	width: 180px;
+	background: #ECD7BC;
+	padding: 10px 0px 10px 0px;
+	bottom:0px;
+	
+}
+.right {
+    /*min-height: 640px;*/
+	background-color:#EDE8E1;
+	min-height:480px;
+	padding: 10px;
+	width: 760px;
+	float: right;
+}
+
+
+
+.foot {
+	text-align:center;
+	padding: 10px 0;
+	background: #772A26;
+	color:#EDE8E1;
+	position: relative;/* this gives IE6 hasLayout to properly clear */
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+}
+
+#logo{
+	background-color:inherit;
+	background-image:url(images/depaul_logo1.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	float:left;
+	height:inherit;
+	width:180px;
+}
+
+.lefttabs {
+	position:relative;
+	width:inherit;
+	height:30px;
+	z-index:2;
+	text-align:center;
+	padding:15px 0px 5px 0px;
+	text-decoration:none
+}
+
+.current {
+	z-index:4;
+	background-color:#EDE8E1;
+	border-bottom:thin;
+	border-bottom-color:#000000;
+	border-bottom: 1px solid #999999; 
+}
+#tabs a{
+	text-decoration:none;
+	color:#585341;
+}
+.ui-state-hover { 
+	border-bottom: 1px solid #999999; 
+	background: #FFF6D4; 
+	font-weight: normal; 
+	color: #857D62; 
+	}
+	
+.ui-state-hover a, .ui-state-hover a:hover { color: #857D62; text-decoration: none; }
+
+.contents{
+	padding:20px;
+}
+
+
+
+
+.photo{
+	width:300px;
+	height:300px;
+	padding:2px;
+	border-color:#999999;
+	border-style:solid;
+	border-width:2px;
+	z-index:5;
+}
+.names{
+	font-size:180%;
+	font-weight:bold;
+}
+
+table.namecard{
+	width:inherit;
+}
+
+.namecard td{
+	padding:20px;
+	text-align:start;
+}
+
+.sub_contents{
+	border-bottom:thin solid #666;
+	border-top:thin solid #666;
+	padding:20px;
+}
+.images{
+	width:600px;
+	padding:5px;
+	border:#666666 solid 2px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+	margin-bottom:20px;
+}
+
+#question_form{
+	margin:20px;
+	font-family:"Century Gothic", "Gill Sans", "Arial", sans-serif;
+}
+	
+#question_form label{
+	float:left;
+	width:300px;
+	margin-right:2px;
+	text-align:right;
+	font-weight:bold;
+	clear:left;
+}
+
+#question_form td{
+	vertical-align:top;
+	padding:10px;
+}
+
+#question_form .inputs{
+	width:300px;
+	background:#F2EDDC;
+}
+
+#question_form .inputs:focus{
+	background-color:#C9fff3;
+}
+
+.form_title{
+	border-bottom:dashed 1px #666;
+}
+
+#question_form input[type="button"]{
+	width:80px;
+	height:24px;	
+}
+
+a.refsource{
+	margin-left:4px;
+	padding-left:40px;
+	background: left center url(images/pdf_icon.gif) no-repeat;
+}
+
+a.refsource:hover{
+	background: left center url(images/pdf_hover_icon.gif) no-repeat;
+}
+a.refsource:click{
+	background: left center url(images/pdf_icon.gif) no-repeat;
+}
+div.gallery.clearfix{
+	margin:20px 15px 20px 15px;
+	border:#666666 thin solid;
+	padding:3px;
+	float:left;
+
+}
+
+.form_hint
+{
+	display:none;
+	font-size:12px;
+	color:#F00;
+}

@@ -1,0 +1,28 @@
+TZERO_CHECK
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Applications/MAMP/htdocs/www/labs/midi/test/portmidi.build/Debug/ZERO_CHECK.build/Script-BE85EC7FA68240A9B83F2254.sh
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/portmidi.build/Debug/ZERO_CHECK.build/Script-BE85EC7FA68240A9B83F2254.sh
+c00000000517989BD00000000000000B3
+t1366919613
+s179
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesea41113dc129b741^59a2133dc129b741^---0#1#0#--18"Check dependencies36"3D6A7249-F38A-47B5-B4AB-34788F20DD44-
+
+CPhaseScriptExecution "CMake Rules" /Applications/MAMP/htdocs/www/labs/midi/test/portmidi.build/Debug/ZERO_CHECK.build/Script-BE85EC7FA68240A9B83F2254.sh
+s388612413.081231
+e388612413.154614
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Applications/MAMP/htdocs/www/labs/midi/test/portmidi.build/Debug/ZERO_CHECK.build/Script-BE85EC7FA68240A9B83F2254.sh
+oecho ""
+o
+omake -f /Applications/MAMP/htdocs/www/labs/midi/test/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'857b153dc129b741^ea94273dc129b741^-146"echo ""make -f /Applications/MAMP/htdocs/www/labs/midi/test/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-388612413#0#8#-0#-----2@82"make -f /Applications/MAMP/htdocs/www/labs/midi/test/CMakeScripts/ReRunCMake.make-388612413#9#82#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-388612413#91#55#-0#-----0#0#0#--339"PhaseScriptExecution "CMake Rules" /Applications/MAMP/htdocs/www/labs/midi/test/portmidi.build/Debug/ZERO_CHECK.build/Script-BE85EC7FA68240A9B83F2254.sh    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    /bin/sh -c /Applications/MAMP/htdocs/www/labs/midi/test/portmidi.build/Debug/ZERO_CHECK.build/Script-BE85EC7FA68240A9B83F2254.sh36"4197ABF2-3330-4258-A4C3-38221C522611-
+

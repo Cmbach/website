@@ -1,0 +1,68 @@
+TCompilerIdC
+v5
+r1
+cCheck dependencies
+cCompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o /Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC normal i386
+cPhaseScriptExecution "Run Script" /Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList
+c00000000517985F500000000000000A0
+t1366918645
+s160
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+c00000000517985F5000000000000002A
+t1366918645
+s42
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c
+c00000000517985F50000000000002F20
+t1366918645
+s12064
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4450a975bd29b741^9f02c075bd29b741^-327"warning: The specified SDK “Current OS X” does not appear to have all of the necessary headers installed.  Update your project to use a built-in SDK (“Latest OS X” is recommended) or install the system headers (included with the “Command Line Tools” package) from the “Downloads” pane in the Xcode preferences.1(21%IDEActivityLogMessage2@326"Warning: The specified SDK “Current OS X” does not appear to have all of the necessary headers installed.  Update your project to use a built-in SDK (“Latest OS X” is recommended) or install the system headers (included with the “Command Line Tools” package) from the “Downloads” pane in the Xcode preferences.-388611445#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#0#--18"Check dependencies36"8B385143-69F8-4A5E-BFDB-114E57FFBC8C-
+
+CCompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o /Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s388611445.757159
+e388611445.931033
+r1
+xCompileC
+x./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
+x/Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c2effc175bd29b741^fb5bee75bd29b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c0000000000000000^2504"CompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -I/Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap -I/Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC -MMD -MT dependencies -MF /Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.d --serialize-diagnostics /Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.dia -c /Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c -o /Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o36"6BD35F39-55D6-4961-AFA8-D8C8B8178E89-
+
+CLd /Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC normal i386
+s388611445.938082
+e388611446.040735
+r1
+xLd
+x/Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Link /Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdCa034f075bd29b741^6a6d0a76bd29b741^---0#0#0#--649"Ld ./CompilerIdC normal i386    cd /Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -L/Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC -F/Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC -filelist /Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList -o /Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC36"03FCC2ED-AC3B-4051-AC30-B3C311754E43-
+
+CPhaseScriptExecution "Run Script" /Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+s388611446.048923
+e388611446.069997
+r1
+xPhaseScriptExecution
+xRun Script
+x/Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+oGCC_VERSION=com.apple.compilers.llvm.clang.1_0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'63d50c76bd29b741^5fec1176bd29b741^-47"GCC_VERSION=com.apple.compilers.llvm.clang.1_01(21%IDEActivityLogMessage2@47"GCC_VERSION=com.apple.compilers.llvm.clang.1_0-388611446#0#47#-0#-----0#0#0#--368"PhaseScriptExecution "Run Script" ./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh    cd /Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC    /bin/sh -c /Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh36"0033DA66-B490-401E-9809-873D95F1296C-
+

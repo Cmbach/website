@@ -1,0 +1,115 @@
+li{
+  list-style-type:none;
+}
+ul{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.pass{
+  background-color:#DEFFDE;
+  color:#002900;
+}
+.error{
+  background-color:#FFB5B5;
+  color:#FF9494;
+}
+.failed{
+  background-color:#FFD6D6;
+  color:#471919;
+}
+.natural{
+  background-color: #FFFF99;
+  color: #666600;
+}
+
+div,h2{
+  font-size:14px;
+  margin:0px;
+}
+
+h1{
+  position: relative;
+  left: 42%;
+}
+
+div.error_check{
+        background-color: yellow;
+        margin: 10px 0px 30px 0px;
+        padding: 6px;
+        color:red;
+        border-radius: 15px;
+}
+
+div.no_error{
+        background-color:#DEFFDE;
+        color:#002900;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 20px;
+}
+      
+div.warp{
+  width: 800px ;
+  padding:10px 20px;
+  margin-left: auto ;
+  margin-right: auto ;
+  background-color:#FEFEF0;
+}
+
+body{
+  background-color:#CCC;
+}
+
+div.std_table{
+  width:400px;
+  margin-left: auto ;
+  margin-right: auto ;
+  clear: both;
+  margin-top: 50px;
+}
+caption,h1{
+font-size: 30px;
+font-weight: bold;
+margin: 20px 0px;
+}
+
+mark{
+  background-color: transparent;
+}
+
+li.candidate mark{
+  display:block;
+  float:left;
+}
+
+li.candidate,.result li,.candidate_plain{
+  clear:both;
+  width:420px;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+.result li{
+  padding: 4px;
+}
+
+mark.candidate{
+  margin-right: 20px;
+  color:#999;
+}
+
+.keyword{
+  font-weight: bold;
+  width:70px;
+}
+.right{
+  float:right;
+  clear:right;
+}
+.keyword2{
+  font-family: Georgia;
+  font-style:italic;
+  color:#999;
+  width:50px;
+}

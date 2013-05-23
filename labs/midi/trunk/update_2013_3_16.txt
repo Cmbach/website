@@ -1,0 +1,3 @@
+1. Add portmidi-vs2010.sln and portmidi-vs2012.sln in /portmidi/
+
+2. Add portmidi-static-vs2010 and portmidi-static-vs2012 in /portmidi/pm_common

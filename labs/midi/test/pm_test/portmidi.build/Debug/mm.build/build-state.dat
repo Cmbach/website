@@ -1,0 +1,197 @@
+Tmm
+v5
+r1
+cCheck dependencies
+cCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/i386/mm.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/x86_64/mm.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/i386/mm normal i386
+cLd /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/x86_64/mm normal x86_64
+cCreateUniversalBinary /Applications/MAMP/htdocs/www/labs/midi/test/Debug/mm normal "i386 x86_64"
+cPhaseScriptExecution "CMake PostBuild Rules" /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Script-23D18EC2232E4717843A47A7.sh
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/Debug/mm
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/i386/mm
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/i386/mm.LinkFileList
+c00000000517989BE000000000000006C
+t1366919614
+s108
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/i386/mm.o
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/x86_64/mm
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/x86_64/mm.LinkFileList
+c00000000517989BE000000000000006E
+t1366919614
+s110
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/x86_64/mm.o
+t2
+s0
+
+N/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Script-23D18EC2232E4717843A47A7.sh
+c00000000517989BE00000000000000B5
+t1366919614
+s181
+
+N/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common/portmidi.h
+c000000004B2149440000000000006F05
+t1260472644
+s28421
+
+N/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c
+c000000004CAB73250000000000004DE7
+t1286304549
+s19943
+i"stdlib.h"
+i"ctype.h"
+i"string.h"
+i"stdio.h"
+i"porttime.h"
+i"portmidi.h"
+
+N/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime/porttime.h
+c000000004AF19BCC0000000000000904
+t1257348044
+s2308
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051760B3A00000000000000AA
+t1366690618
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/ctype.h
+c00000000507881F00000000000002C18
+t1350074864
+s11288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h
+c00000000507881F10000000000004523
+t1350074865
+s17699
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdlib.h
+c00000000507881F10000000000003089
+t1350074865
+s12425
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/string.h
+c00000000507881F10000000000001A3A
+t1350074865
+s6714
+
+CBuild AST from /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies0f9cbb3ec129b741^dc0ec13ec129b741^---0#1#0#--18"Check dependencies36"436D249C-07B2-4945-9276-18FE034C74CE-
+
+CCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/i386/mm.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s388612414.746941
+e388612414.835366
+r1
+xCompileC
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/i386/mm.o
+x/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c:122:12: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+o    printf(prompt);
+o           ^~~~~~
+o/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c:139:32: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+o        else            printf(Pm_GetErrorText(count));
+o                               ^~~~~~~~~~~~~~~~~~~~~~
+o/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c:171:16: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+o        printf(Pm_GetErrorText(err));
+o               ^~~~~~~~~~~~~~~~~~~~
+o/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c:487:12: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+o    printf(result);
+o           ^~~~~~
+o4 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c7253bf3ec129b741^4f5cda3ec129b741^-910"/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c:122:12: warning: format string is not a string literal (potentially insecure) [-Wformat-security]    printf(prompt);           ^~~~~~/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c:139:32: warning: format string is not a string literal (potentially insecure) [-Wformat-security]        else            printf(Pm_GetErrorText(count));                               ^~~~~~~~~~~~~~~~~~~~~~/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c:171:16: warning: format string is not a string literal (potentially insecure) [-Wformat-security]        printf(Pm_GetErrorText(err));               ^~~~~~~~~~~~~~~~~~~~/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c:487:12: warning: format string is not a string literal (potentially insecure) [-Wformat-security]    printf(result);           ^~~~~~4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@60"Format string is not a string literal (potentially insecure)-388612414#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@74"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c0000000000000000^121#11#121#11#4147#0#19"Format String Issue1(3@74"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c0000000000000000^121#11#121#17#4147#0#-2@60"Format string is not a string literal (potentially insecure)-388612414#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@74"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c0000000000000000^138#31#138#31#4536#0#19"Format String Issue1(3@74"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c0000000000000000^138#31#138#53#4536#21#-2@60"Format string is not a string literal (potentially insecure)-388612414#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@74"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c0000000000000000^170#15#170#15#5576#0#19"Format String Issue1(3@74"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c0000000000000000^170#15#170#35#5576#19#-2@60"Format string is not a string literal (potentially insecure)-388612414#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@74"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c0000000000000000^486#11#486#11#17258#0#19"Format String Issue1(3@74"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c0000000000000000^486#11#486#17#17258#0#-0#0#0#-19%DVTDocumentLocation4@74"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c0000000000000000^2243"CompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/i386/mm.o pm_test/mm.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Applications/MAMP/htdocs/www/labs/midi/test/Debug/include -I/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common -I/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks -mmacosx-version-min=10.6 -DPM_CHECK_ERRORS=1 -DDEBUG -MMD -MT dependencies -MF /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/i386/mm.d --serialize-diagnostics /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/i386/mm.dia -c /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/i386/mm.o36"46C7AD0D-A6A6-4D0E-AA82-D9FE54086622-
+
+CCompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/x86_64/mm.o /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s388612414.747508
+e388612414.835361
+r1
+xCompileC
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/x86_64/mm.o
+x/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c:122:12: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+o    printf(prompt);
+o           ^~~~~~
+o/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c:139:32: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+o        else            printf(Pm_GetErrorText(count));
+o                               ^~~~~~~~~~~~~~~~~~~~~~
+o/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c:171:16: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+o        printf(Pm_GetErrorText(err));
+o               ^~~~~~~~~~~~~~~~~~~~
+o/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c:487:12: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+o    printf(result);
+o           ^~~~~~
+o4 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c0c76bf3ec129b741^bc5ada3ec129b741^-910"/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c:122:12: warning: format string is not a string literal (potentially insecure) [-Wformat-security]    printf(prompt);           ^~~~~~/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c:139:32: warning: format string is not a string literal (potentially insecure) [-Wformat-security]        else            printf(Pm_GetErrorText(count));                               ^~~~~~~~~~~~~~~~~~~~~~/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c:171:16: warning: format string is not a string literal (potentially insecure) [-Wformat-security]        printf(Pm_GetErrorText(err));               ^~~~~~~~~~~~~~~~~~~~/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c:487:12: warning: format string is not a string literal (potentially insecure) [-Wformat-security]    printf(result);           ^~~~~~4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@60"Format string is not a string literal (potentially insecure)-388612414#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@74"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c0000000000000000^121#11#121#11#4147#0#19"Format String Issue1(3@74"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c0000000000000000^121#11#121#17#4147#0#-2@60"Format string is not a string literal (potentially insecure)-388612414#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@74"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c0000000000000000^138#31#138#31#4536#0#19"Format String Issue1(3@74"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c0000000000000000^138#31#138#53#4536#21#-2@60"Format string is not a string literal (potentially insecure)-388612414#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@74"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c0000000000000000^170#15#170#15#5576#0#19"Format String Issue1(3@74"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c0000000000000000^170#15#170#35#5576#19#-2@60"Format string is not a string literal (potentially insecure)-388612414#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@74"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c0000000000000000^486#11#486#11#17258#0#19"Format String Issue1(3@74"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c0000000000000000^486#11#486#17#17258#0#-0#0#0#-19%DVTDocumentLocation4@74"file://localhost/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c0000000000000000^2257"CompileC /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/x86_64/mm.o pm_test/mm.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Applications/MAMP/htdocs/www/labs/midi/test/Debug/include -I/Applications/MAMP/htdocs/www/labs/midi/trunk/pm_common -I/Applications/MAMP/htdocs/www/labs/midi/trunk/porttime -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/DerivedSources/x86_64 -I/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks -mmacosx-version-min=10.6 -DPM_CHECK_ERRORS=1 -DDEBUG -MMD -MT dependencies -MF /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/x86_64/mm.d --serialize-diagnostics /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/x86_64/mm.dia -c /Applications/MAMP/htdocs/www/labs/midi/trunk/pm_test/mm.c -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/x86_64/mm.o36"32E2100A-1EA2-4B00-B422-95E182E154F6-
+
+CCreateUniversalBinary /Applications/MAMP/htdocs/www/labs/midi/test/Debug/mm normal "i386 x86_64"
+s388612414.954175
+e388612414.983449
+r1
+xCreateUniversalBinary
+x/Applications/MAMP/htdocs/www/labs/midi/test/Debug/mm
+xnormal
+xi386 x86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Create universal binary /Applications/MAMP/htdocs/www/labs/midi/test/Debug/mm395ff43ec129b741^5c01fd3ec129b741^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Applications/MAMP/htdocs/www/labs/midi/test/Debug/mm000000000080d041^443"CreateUniversalBinary /Applications/MAMP/htdocs/www/labs/midi/test/Debug/mm normal "i386 x86_64"    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    lipo -create /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/i386/mm /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/x86_64/mm -output /Applications/MAMP/htdocs/www/labs/midi/test/Debug/mm36"A3CF9AE3-D60C-4955-8504-B7CB97744DE5-
+
+CLd /Applications/MAMP/htdocs/www/labs/midi/test/Debug/mm normal x86_64
+r0
+
+CLd /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/i386/mm normal i386
+s388612414.848331
+e388612414.903579
+r1
+xLd
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/i386/mm
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Link /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/i386/mm3943d93ec129b741^ecc1fc3ec129b741^---0#0#0#--1144"Ld /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/i386/mm normal i386    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks -filelist /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/i386/mm.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Applications/MAMP/htdocs/www/labs/midi/test/Debug/libportmidi_s.a -framework CoreAudio -framework CoreFoundation -framework CoreMIDI -framework CoreServices -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/i386/mm36"2356B792-7D8D-4B47-B135-09B341C7EC66-
+
+CLd /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/x86_64/mm normal x86_64
+s388612414.883140
+e388612414.947633
+r1
+xLd
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/x86_64/mm
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Link /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/x86_64/mmca34e23ec129b741^7ee2fc3ec129b741^---0#0#0#--1154"Ld /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/x86_64/mm normal x86_64    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/MAMP/htdocs/www/labs/midi/test/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks -filelist /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/x86_64/mm.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Applications/MAMP/htdocs/www/labs/midi/test/Debug/libportmidi_s.a -framework CoreAudio -framework CoreFoundation -framework CoreMIDI -framework CoreServices -o /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Objects-normal/x86_64/mm36"D842EBE4-CAC5-4DB7-B612-E00282BC4FF2-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Script-23D18EC2232E4717843A47A7.sh
+s388612415.049205
+e388612415.116332
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Script-23D18EC2232E4717843A47A7.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Applications/MAMP/htdocs/www/labs/midi/test && make -C /Applications/MAMP/htdocs/www/labs/midi/test -f /Applications/MAMP/htdocs/www/labs/midi/test/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.mm.Debug
+omake[1]: Nothing to be done for `PostBuild.mm.Debug'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'191c0d3fc129b741^a1f5243fc129b741^-316"echo "Depend check for xcode"Depend check for xcodecd /Applications/MAMP/htdocs/www/labs/midi/test && make -C /Applications/MAMP/htdocs/www/labs/midi/test -f /Applications/MAMP/htdocs/www/labs/midi/test/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.mm.Debugmake[1]: Nothing to be done for `PostBuild.mm.Debug'.4(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-388612415#0#30#-0#-----2@23"Depend check for xcode-388612415#30#23#-0#-----2@209"cd /Applications/MAMP/htdocs/www/labs/midi/test && make -C /Applications/MAMP/htdocs/www/labs/midi/test -f /Applications/MAMP/htdocs/www/labs/midi/test/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.mm.Debug-388612415#53#209#-0#-----2@54"make[1]: Nothing to be done for `PostBuild.mm.Debug'.-388612415#262#54#-0#-----0#0#0#--349"PhaseScriptExecution "CMake PostBuild Rules" /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Script-23D18EC2232E4717843A47A7.sh    cd /Applications/MAMP/htdocs/www/labs/midi/trunk    /bin/sh -c /Applications/MAMP/htdocs/www/labs/midi/test/pm_test/portmidi.build/Debug/mm.build/Script-23D18EC2232E4717843A47A7.sh36"30D4A2F7-DFD1-48A6-8C3E-ACA337D8EAD0-
+

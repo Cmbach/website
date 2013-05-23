@@ -1,0 +1,289 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link id="theme" rel="stylesheet" type="text/css" href="layout.css" />
+<script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+
+<!-- for photo -->
+<script src="js/jquery-1.6.1.min.js" type="text/javascript"></script>
+<!--script src="js/jquery.lint.js" type="text/javascript" charset="utf-8"></script-->
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+	$("area[rel^='prettyPhoto']").prettyPhoto();
+	$(".gallery:first a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'light_square',slideshow:0, autoplay_slideshow: false});
+	$(".gallery:gt(0) a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'fast',slideshow:0, hideflash: true});
+	$("#custom_content a[rel^='prettyPhoto']:first").prettyPhoto({
+		custom_markup: '<div id="map_canvas" style="width:260px; height:265px"></div>',
+		changepicturecallback: function(){ initialize(); }
+	});
+	$("#custom_content a[rel^='prettyPhoto']:last").prettyPhoto({
+		custom_markup: '<div id="bsap_1259344" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div><div id="bsap_1237859" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6" style="height:260px"></div><div id="bsap_1251710" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div>',
+		changepicturecallback: function(){ _bsap.exec(); }
+	});
+	});
+</script>
+<!-- end of photo -->
+
+<title>Social Development Lab</title>
+</head>
+
+<body>
+<!-- page layout begin -->
+<div class="main">
+	<!-- page header -->
+	<div class="head">
+    	<div id="logo">
+   			<a href="http://www.depaul.edu"></a>
+    	</div>  	
+		<h1 id=title>Social Development Lab</h1>
+        <div style="position:fixed; right:0px; top:0px;"><input type="button" value="Theme1" onclick="theme.href='layout.css'" >
+        <input type="button" value="Theme2" onclick="theme.href='layout2.css'" ></div>
+    </div>
+    <!-- page header end-->
+   
+    <!-- page left tabs-->
+	<div class="left">
+    	<div id="tabs">
+		<a href=#home_content><div id="home" class="lefttabs">Home</div></a>
+        <a href=#grad_content><div id="grad" class="lefttabs">Graduates</div></a>
+        <a href=#undergrad_content><div id="undergrad" class="lefttabs">Undergraduates</div></a>
+        <a href=#opport_content><div id="opportunities" class="lefttabs">Research</div></a>
+        <a href=#resource_content><div id="resource" class="lefttabs">Resource</div></a>
+        <a href=#questions_content><div id="questions" class="lefttabs">Contact Us</div></a>
+		</div>
+    </div>
+    
+    <!-- page main information area:right -->
+	<div id="right" class="right">
+    	<div class="contents" id="home_content" >
+        	<div id="welcome">
+            	<div style="width:auto"><img src="images/children.png" /></div>
+                <p>The Social Development Lab, directed by Dr. Yan Li, addresses research questions about social development from middle childhood to adolescence.
+                We aim to understand the developmental processes and contribute to the promotion of well adjustment in children and adolescents.</p>
+				<table class="namecard">
+    			<tr>
+                	<td><div class="photo"><img src="images/yan.jpg" alt="Dr Yan's Photo"  /></div></td>
+                    <td>
+                    <div class="names">Dr. Yan Li</div>
+                    <br/>Assistant Professor
+                    <br/>Department of Psychology
+                    <br/>DePaul University
+                    <br/>2219 North Kenmore Avenue
+                    <br/>Chicago, IL 60614-3504
+                    <br/>(773) 325-4098
+                    <br/><a href="mailto:yli34@depaul.edu">Yli34@depaul.edu</a>
+                    <br/><a href="resource/Dr. Yan's Adcademic CV.doc">Dr. Yan Li's CV</a>
+                    </td>
+                </tr>
+                </table>
+			</div>
+            <h2 id="research_t" class="hint">Research</h2>
+    		<div id="research" class="sub_contents">
+			<p>My research focuses on children’s social development particularly in three areas: peer relations, familial socialization, and cultural influences on children’s social development. The cultural aspect is often intertwined with peer relations and familial socialization to allow me to examine the contextual influences in the developmental processes.</p> 
+	<h3>Peer Relations</h3>
+	<p>My research interests in peer relations include examining peer status and certain social behaviors, such as aggression and prosocial behavior. My recent research in this area involves investigating the social cognitive processes related to aggression and peer status as well as how cultural values and normative beliefs are related to aggressive behaviors among children and adolescents. </p>
+	<h3>Familial Socialization</h3>
+	<p>The second theme of my research is to examine familial influences on children’s social development. My research in this area concerns several aspects of familial influences, including parenting beliefs and behaviors, parent-child relationships, and interparental conflict. Specifically, I am interested in investigating how various socialization goals, parenting beliefs, and cultural values relate to parenting behaviors. I also examine how important familial processes, such as interparental conflict and parent-child interactions, work as a system to influence children’s social development. Some of my recent work involves parental knowledge and parental domain specific socialization. </p>
+	<p>A recent research line of mine also investigates gifted children’s academic and social development. Collaborating with the Talent Identification Program (TIP) at Duke University, I have examined how summer program participation in middle school longitudinally related to academic performance and social activities in high school as well as gifted adolescents’ social activities outside the classroom.</p>
+    		</div>
+   			<h2 id="teach_t" class="hint">Teaching</h2>
+  			<div id="teach" class="sub_contents">
+				<ul>
+			<li>Undergraduate Courses</li>
+			<ul>		        
+				<li>Psy333 Child Psychology</li>	                        	
+				<li>Psy303 Human Development</li>	
+				<li>Psy242 Research Methods II</li> 		
+				<li>Study Abroad Course: Child Psychology/Human Development in China </li>
+			</ul>
+            <br />
+			<li>Graduate Course</li>	
+            <ul>         
+				<li>Psy419 Factor Analysis and Structural Equation Modeling (SEM) </li>
+			</ul>
+		</ul>
+			</div> 
+			<h2 id="pub_t" class="hint">Publications</h2>
+    		<div id="pub" class="sub_contents">
+        	<em>Note</em>: <sup>G</sup> with graduate student coauthors. PDF files are for personal use only. 
+        	<br />
+           <ul>
+		
+    <li><strong>Li, Y.</strong> & <sup>G</sup>Wright, M. F. (in press). Adolescents’ social status goals: Relationships to social status insecurity, aggression, and prosocial behavior. <cite>Journal of Youth and Adolescence</cite><a class="refsource" target="_blank" href="resource/Social status goals insecurity and behaviors - R2-FINAL.docx"></a></li>
+		<li><sup>G</sup>Wright, M. F. & <strong>Li, Y.</strong> (in press).  Kicking the digital dog: A longitudinal investigation of young adults’ victimization and cyber displaced aggression.<cite>Cyberpsychology, Behavior, and Social Networking</cite></li>
+		<li><sup>G</sup>Wright, M. F., <strong>Li, Y.</strong>, &amp; Shi, J. (in press). Chinese adolescents’ social status goals: Associations with behaviors and attributions for relational aggression. <cite>Youth &amp; Society</cite></li>
+		<li><strong>Li, Y.</strong>, Xie, H., &amp; Shi, J. (2012). Chinese and American Children’s Perceptions of Popularity Determinants: Cultural Differences and Behavioral Correlates.<cite> International Journal of Behavioral Development</cite>,36, 420–429. DOI: 10.1177/0165025412446393 <a class="refsource" target="_blank" href="resource/Li, Xie, & Shi, 2012--IJBD.pdf"></a></li>
+		<li>Camras, L., Sun, K., <strong>Li, Y.</strong>, &amp; <sup>G</sup>Wright, M. F. (2012).Do Chinese and American Children's Interpretations of Parenting Moderate Links between Perceived Parenting and Child Adjustment? <cite>Parenting: Science and Practice</cite>, 12, 306-327. DOI: 10.1080/15295192.2012.709154 </li>
+		<li>Zhou, H., <strong>Li, Y.</strong>, Zeng, M., &amp; Zhang, B. (2012). The relationship between narcissism and friendship qualities in adolescents: Gender as a moderator. <cite>Sex Roles</cite>, 67,452–462. DOI 10.1007/s11199-012-0169-8</li>
+		<li>Budd, K. S., <sup>G</sup>Behling, S., <strong>Li, Y.</strong>, <sup>G</sup>Parikshak, S., <sup>G</sup>Gershenson, R. A., <sup>G</sup>Feuer, R. &amp; <sup>G</sup>Danko, C. (2012). Measuring attitudes toward acceptable and unacceptable parenting practices. <cite>Journal of Child and Family Studies</cite>, 21, 247–261, DOI 10.1007/s10826-011-9470-3</li>
+		<li><sup>G</sup>Shuster, M., <strong>Li, Y.</strong>, &amp; Shi, J. (2012). Maternal cultural values and parenting practices: Longitudinal associations with Chinese adolescents’ aggression. <cite>Journal of Adolescence</cite>, 35, 345-355. doi:10.1016/j.adolescence.2011.08.006<a class="refsource" target="_blank" href="resource/Shuster, Li & Shi 2011--JoA.pdf"></a></li>
+		<li>Makel, M. C., <strong>Li, Y.</strong>, Wai, J., &amp; Putallaz, M. (2011). High ability students’ time spent outside the classroom. <cite>Journal of Advanced Academics</cite>, 720-749, DOI: 10.1177/1932202X11424880<a class="refsource" target="_blank" href="resource/Makel, Li et al. 2012--JAA.pdf"></a></li>
+		<li><sup>G</sup>Wright, M. &amp; <strong>Li, Y.</strong> (2011). The Associations between young adults’ face-to-face prosocial behaviors and their online prosocial behaviors. <cite>Computers in Human Behavior</cite>, 27, 1959–1962. doi:10.1016/j.chb.2011.04.019<a class="refsource" target="_blank" href="resource/Wright & Li, 2011--CHB.pdf"></a></li>
+		<li><strong>Li, Y.</strong>, Putallaz, M., &amp; Su, Y. (2011). Interparental conflict styles and parenting behaviors: Associations with overt and relational aggression among Chinese children. Merrill-Palmer Quarterly: <cite>Journal of Developmental Psychology</cite>, 57, 402-428. DOI: 10.1353/mpq.2011.0017<a class="refsource" target="_blank" href="resource/Li et al. 2011--MPQ.pdf"></a></li>
+		<li><strong>Li, Y.</strong>, Costanzo, P. R., &amp; Putallaz, M. (2010). Maternal socialization goals, parenting styles, and social-emotional adjustment among Chinese and European American young adults: Testing a mediation model. <cite>Journal of Genetic Psychology</cite>, 171, 330 - 362. DOI: 10.1080/00221325.2010.505969<a class="refsource" target="_blank" href="resource/Li et al. 2010-JGP.pdf"></a></li>
+		<li><strong>Li, Y.</strong>, Wang, M., Wang, C., &amp; Shi, J. (2010). Individualism, collectivism, and Chinese adolescents’ aggression: Intracultural variations. <cite>Aggressive Behavior</cite>, 36, 187-194.<a class="refsource" target="_blank" href="resource/Li et al., 2010--AB.pdf"></a></li>
+		<li><strong>Li, Y.</strong>, Alfeld, C., Kennedy, R. P., &amp; Putallaz, M. (2009). Effects of summer academic programs in middle school on high school test scores, coursetaking, and college major. <cite>Journal of Advanced Academics</cite>, 20, 404–436.<a class="refsource" target="_blank" href="resource/Li et al. 2009--JAA.pdf"></a></li>
+		<li>Xie, H., <strong>Li, Y.</strong>, Boucher, S., Hutchins, B., &amp; Cairns, B. D. (2006) What makes a girl (or a boy) popular (or unpopular)? African-American children’s perceptions and developmental differences.<cite> Developmental Psychology</cite>, 42, 599–612.<a class="refsource" target="_blank" href="resource/Xie, Li, et al., 2006--Dev.Psy.pdf"></a></li>
+		<li>Gazelle, H., Putallaz, M., <strong>Li, Y.</strong>, Grimes, C. L., Kupersmidt, J. B., &amp; Coie, J. D. (2005). Anxious solitude across context: Girls’ interactions with familiar and unfamiliar peers, <cite>Child Development</cite>, 76, 227–246.</li>
+ 		</ul>
+   			<br />
+			</div>
+    	</div>
+    	
+        <!--This is the grad page-->
+    	<div class="contents" id="grad_content" >
+    		<div class="images"><img src="images/grads.png" /></div>
+        
+        	<table class="namecard">
+    <tr><td>
+    <div class="photo"><img src="images/yinyan.png" alt="Yinyan's Photo"  /></div></td>
+   	<td>
+    <div class="names">Yinyan Hu</div>
+	<br/>Graduate Student
+	<br/>Department of Psychology <br/>DePaul University
+	<br/>2219 North Kenmore Avenue
+	<br/>Chicago, IL 60614-3504
+	<br/><a href="mailto:yhu15@depaul.edu">yhu15@depaul.edu</a>
+    </td></tr>
+    </table>
+  		  	<h2 id="yansPj_t" class="hint">RESEARCH PROJECTS</h2>
+  		  	<div id="yansPj" class="sub_contents">
+		<ul>
+    		<li>“Popularity determinants, behaviors, and children’s popularity status: a longitudinal study.” This study investigates how children’s popularity goal is related to their future behaviors and status and the moderation effect of perceived popularity determinants.</li>
+        </ul>
+        </div>
+        
+  	    	 <table class="namecard">
+    <tr><td>
+	<div class="photo"><img src="images/michelle.png" alt="Name's Photo"  /></div>
+	</td>
+    <td><div class="names">Michelle Wright</div>
+	<br/>Graduate Student
+	<br/>Department of Psychology <br/>DePaul University
+	<br/>2219 North Kenmore Avenue
+	<br/>Chicago, IL 60614-3504
+	<br/><a href="mailto:mwrigh20@depaul.edu">mwrigh20@depaul.edu</a>
+    </td></tr>
+    </table>
+			<h2 id="michellesPj_t" class="hint">RESEARCH PROJECTS</h2>
+    		<div id="michellesPj" class="sub_contents">
+        <ul>
+        	<li>Coming soon!</li>
+        </ul>
+    	</div>
+   		    <table class="namecard">
+    <tr><td>
+	<div class="photo"><img src="images/mike.png" alt="Name's Photo"  /></div>
+	</td>
+    <td>
+    <div class="names">Michael Shuster</div>
+	<br/>Graduate Student
+	<br/>Department of Psychology <br/>DePaul University
+	<br/>2219 North Kenmore Avenue, Byrne 508
+	<br/>Chicago, IL 60614-3504
+	<br/><a href="mailto:mshuster@depaul.edu">mshuster@depaul.edu</a>
+    </td></tr>
+    </table>
+			<h2 id="mikesPj_t" class="hint">RESEARCH PROJECTS</h2>
+    		<div id="mikesPj" class="sub_contents">
+       		 <ul>
+             <li>Coming soon!</li>
+             </ul>
+    	</div>
+    	</div>
+        
+        <!--This is the grad page-->
+    	<div class="contents" id="undergrad_content" >
+    		<div class="images"><img src="images/underg.png" /></div>
+        	<p>Undergraduate students are welcome to join in our research projects. You will gain research experience here.</p>
+    		<div style="margin:auto; text-align:center; padding:5px; border-bottom:#666666 thin solid "> <h2>Undergraduate Conference Presentations</h2></div>
+    		<div class="gallery clearfix"><a href="images/conf_1.png" rel="prettyPhoto" title=""><img src="images/t_conf_1.png" width="200" height="150" alt="Pic1" /></a></div>
+    		<div class="gallery clearfix"><a href="images/conf_2.png" rel="prettyPhoto" title=""><img src="images/t_conf_2.png" width="200" height="150" alt="Pic2" /></a></div>
+    		<div class="gallery clearfix"><a href="images/conf_5.png" rel="prettyPhoto" title=""><img src="images/t_conf_5.png" width="200" height="150" alt="Pic5" /></a></div>
+    		<div class="gallery clearfix"><a href="images/conf_6.png" rel="prettyPhoto" title=""><img src="images/t_conf_6.png" width="200" height="150" alt="Pic6" /></a></div>
+    	</div>
+        
+        <!--This is the grad page-->
+    	<div class="contents" id="opport_content" >
+    		<h2> Recent Project Opportunities</h2>
+  	 		<ol>
+        	<li>“Cultural values, familial factors, and children’s aggressive behaviors in China: A longitudinal study” This two-year study investigates the long-term effects of familial factors (e.g., parenting behaviors, interparental conflict) and cultural values (e.g., collectivism, social harmony) on Chinese children’s (4th and 5th graders) social development.</li>
+			<li>“Adolescents’ social cognitions about relationally aggressive behaviors in the U.S. and in China.” This project investigates adolescents’ (7th and 8th graders) attributions, outcome expectancies, responses, and coping strategies about relational aggression.</li>
+			<li>“Online behaviors and adjustment among adolescents and young adults: a longitudinal study.” This project investigates online aggression and prosocial behaviors among adolescents and young adults and the related social and emotional adjustment issues.</li>
+			</ol>
+    		<h2><a href="mailto:yli34@depaul.edu">Join us, today!</a></h2>
+			<p>Our lab is currently looking for undergraduate students to join our team. If you are interested in our research projects and want to gain more research experience, please contact Dr. Li at <a href="mailto:yli34@depaul.edu">yli34@depaul.edu!</a>
+</p>
+		</div>
+    
+    	<!-- resource page -->
+    	<div class="contents" id="resource_content" >
+    		<h2>DePaul Links</h2>
+    		<ul>
+    			<li><a href="http://www.depaul.edu" target="_blank">DePaul University</a></li>
+    			<li><a href="http://csh.depaul.edu/departments/Pages/default.aspx" target="_blank">Department of Psychology at DePaul University</a></li>
+    			<li><a href="http://library.depaul.edu/" target="_blank">  Library</a></li>
+    			<li><a href="http://d2l.depaul.edu" target="_blank">Desire to Learn</a></li>
+    		</ul>
+    		<h2>Resource Links</h2>
+    		<ul>
+    			<li><a href="http://www.apa.org/" target="_blank">American Psychological Association (APA)</a></li>
+    			<li><a href="http://www.issbd.org/" target="_blank">International Society for the Study of Behavioural Development (ISSBD)</a></li>
+    			<li><a href="http://www.s-r-a.org/" target="_blank">Society for Research on Adolescence (SRA)</a></li> 
+    			<li><a href="http://www.srcd.org" target="_blank">Society for Research in Child Development (SRCD)</a></li>
+    		</ul>
+	    </div>
+    	
+        <!-- question page -->
+    	<div class="contents" id="questions_content" >   
+        	<div class="form_title"><h2>Any questions for us?</h2></div>
+            <form name="email_form" id="question_form" action="mail.php" target="_blank" method="post" name="content" onSubmit="return formCheck();">
+                <table>
+                <tr>
+                    <td><label for="name"> What is your name ?</label></td><td> <input name="name" class="inputs" maxlength="20" onblur="isNameEmpty()"/>
+                        <label id="noname" class="form_hint"> * You name is important to us</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="email"> What is your email address?</label> </td><td><input name="email" class="inputs" maxlength="20" onblur="isEmailValid()" />
+                    <label id="noemail" class="form_hint"> * Correct email is the bridge between us</label>
+                    </td>
+                </tr>
+                <!--
+        <tr>
+        <td><label> Select a type of your question:</label> </td><td>
+            <select name="question_type"> 
+                <option selected="selected">Choose one</option>
+                <option>About Apple</option>
+                <option>About Research</option>
+                <option>Type C</option>
+                <option>Type D</option>
+             </select>
+             </td></tr>
+             
+    -->
+                <tr>
+                    <td><label for="details">What is your question ?</label></td><td> <textarea name="question_details" class="inputs" style="min-height:60px" maxlength="200" onblur="isQuestionEmpty()"> </textarea>
+                    <label id="noquestion" class="form_hint"> * Sometime it is better left unsaid, but not this time</label>
+                    </td>
+                </tr>
+                <tr>		
+                    <td><label>  </label></td>
+                    <td><input type="submit" value="Submit"/></td>
+                </tr>
+                </table>
+            </form>
+    	</div>
+	</div>
+	<!-- end of main page -->
+    <!-- the footer -->
+    <div class="foot">
+    	Copyright © 2012 The DePaul University Social Development Laboratory
+	</div>
+</div>
+</body>
+</html>

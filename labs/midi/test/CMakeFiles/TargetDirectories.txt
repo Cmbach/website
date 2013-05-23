@@ -1,0 +1,13 @@
+/Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/ALL_BUILD.dir
+/Applications/MAMP/htdocs/www/labs/midi/test/CMakeFiles/ZERO_CHECK.dir
+/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/CMakeFiles/latency.dir
+/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/CMakeFiles/midiclock.dir
+/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/CMakeFiles/midithread.dir
+/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/CMakeFiles/midithru.dir
+/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/CMakeFiles/mm.dir
+/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/CMakeFiles/pmjni.dir
+/Applications/MAMP/htdocs/www/labs/midi/test/pm_dylib/CMakeFiles/portmidi-dynamic.dir
+/Applications/MAMP/htdocs/www/labs/midi/test/pm_common/CMakeFiles/portmidi-static.dir
+/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/CMakeFiles/qtest.dir
+/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/CMakeFiles/sysex.dir
+/Applications/MAMP/htdocs/www/labs/midi/test/pm_test/CMakeFiles/test.dir

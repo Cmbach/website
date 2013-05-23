@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="color.css" />
+<script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="color.js"></script>
+<link rel="stylesheet" href="../../ui/db/themes/base/jquery.ui.all.css">
+	<!-- from jquery UI -->
+	<script src="../../ui/db/ui/jquery.ui.core.js"></script>
+	<script src="../../ui/db/ui/jquery.ui.widget.js"></script>
+	<script src="../../ui/db/ui/jquery.ui.mouse.js"></script>
+	<script src="../../ui/db/ui/jquery.ui.slider.js"></script>
+	<link rel="stylesheet" href="../demos.css">
+    
+<title>Kevin's Color Lab</title>
+</head>
+
+<body>
+<p>Simple Instruction:
+<b>Change and text field</b> to find out the color and its conversions. 
+<br />Click on radio button for different output or input.
+Conversions is based on wikipedia and wrote in JS by Kevin Xi.
+
+</p>
+<h2>Next</h2><ul>
+<li>Multi-div, make it like a palettes application.</li>
+<li>Better layout !!!</li>
+<li>Suggestion for a color( such like complementary color)</li>
+<li>Make Sliders Work!!!!</li>
+
+<div id="output1">
+</div>
+
+<form id="form1" name="form1" method="post" action="">
+  <p></p>
+  <div id="RGB">
+  <label for="picker_Red">Red</label>
+    <input name="picker_Red" type="text" id="picker_Red" size="4" maxlength="3" onkeyup="onlyNum(this)" />
+    <label for="picker_Gree">Green</label>
+    <input name="picker_Gree" type="text" id="picker_Gree" size="4" maxlength="3" onkeyup="onlyNum(this)"/>
+    <label for="picker_Blue">Blue</label>
+    <input name="picker_Blue" type="text" id="picker_Blue" size="4" maxlength="3" onkeyup="onlyNum(this)"/>
+    <label for="rgbValidation" style="color:#F00" class="validation" >*Check your input and try again</label>
+    <br/>
+  <input name="RGB_type" Value="255" type="radio" checked />255 &nbsp; &nbsp; &nbsp;
+  <input name="RGB_type" Value="Hex" type="radio" />Hex &nbsp; &nbsp; &nbsp;
+  <input name="RGB_type" Value="Percent" type="radio" />Percent &nbsp; &nbsp; &nbsp;
+  <br/>
+  <div class="sliders" id="slider_Red"></div>
+  <div class="sliders" id="slider_Gree"></div>
+  <div class="sliders" id="slider_Blue"></div>
+    </div>
+
+  <p></p>
+  <div id="HS">
+    <label for="picker_Hue">Hue</label>
+    <input name="picker_Hue" type="text" id="picker_Hue" size="4" maxlength="3" onkeyup="onlyNum(this)"/>
+    <label for="picker_Satu">Saturation</label>
+    <input name="picker_Satu" type="text" id="picker_Satu" size="4" maxlength="3" onkeyup="onlyNum(this)"/>
+    <label for="picker_VB">Value/Brightness</label>
+    <input name="picker_VB" type="text" id="picker_VB" size="4" maxlength="3" onkeyup="onlyNum(this)"/>
+    <label for="hsValidation" style="color:#F00" class="validation">*Check your input and try again</label>
+    <br/>
+    <input name="HS_type" Value="HSV" type="radio" checked />HSV_B &nbsp; &nbsp; &nbsp;
+ 	<input name="HS_type" Value="HSL" type="radio" />HSL &nbsp; &nbsp; &nbsp;
+   <br/>
+  <div class="sliders" id="slider_Hue"></div>
+  <div class="sliders" id="slider_Satu"></div>
+  <div class="sliders" id="slider_VB"></div>
+  </div>
+  <p></p>
+  <div id="CMYK">
+    <label for="picker_Cyan">Cyan</label>
+    <input name="picker_Cyan" type="text" id="picker_Cyan" size="4" maxlength="3" onkeyup="onlyNum(this)"/>
+    <label for="picker_Mage">Magenta</label>
+    <input name="picker_Mage" type="text" id="picker_Mage" size="4" maxlength="3" onkeyup="onlyNum(this)"/>
+    <label for="picker_Yell">Yellow</label>
+    <input name="picker_Yell" type="text" id="picker_Yell" size="4" maxlength="3" onkeyup="onlyNum(this)"/>
+    <label for="picker_Blac">Black</label>
+    <input name="picker_Blac" type="text" id="picker_Blac" size="4" maxlength="3" onkeyup="onlyNum(this)"/>
+    <label for="cmykValidation" style="color:#F00" class="validation">*Check your input and try again</label>
+    
+     <br/>
+  <div class="sliders" id="slider_Cyan"></div>
+  <div class="sliders" id="slider_Mage"></div>
+  <div class="sliders" id="slider_Yell"></div>
+  <div class="sliders" id="slider_Blac"></div>
+    </div>
+
+  
+</form>
+</body>
+</html>

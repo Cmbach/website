@@ -1,0 +1,25 @@
+
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-0f20cc-1017-v';
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-1ae24a-1136-i';
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-1ae24a-2152-i';
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-1ae24a-6188-i';
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-444e50-5631-v';
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-5df8b5-7022-i';
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-66fd82-2134-i';
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-66fd82-4105-i';
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-66fd82-4459-i';
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-66fd82-9530-i';
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-728d45-4084-i';
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-772bd3-1581-v';
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-80a5b8-1506-v';
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-8a7b85-7411-i';
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-95f26d-6280-i';
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-99e556-9418-v';
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-9c7f10-1628-i';
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-a4caa1-9865-v';
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-d60294-8774-v';
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-e5825a-2201-v';
+
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-f26892-7783-v';
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-f55a25-4750-i';
+update content_type_song set field_song_sku_value='' where field_song_sku_value= 'A-f55a25-5485-i';
