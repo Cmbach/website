@@ -1,4 +1,19 @@
 <?php
+
+function test(&$a,&$b){
+  $a = 0;
+  $b[1] = 'aaa';
+}
+$x = 5;
+$y = array(1,2);
+
+test($x,$y);
+var_dump($x);
+echo "\n";
+var_dump($y);
+die();
+
+
 $filename = 'to_delete.txt';
   if(! $handle = fopen($filename, 'r'))
     die($filename);   
