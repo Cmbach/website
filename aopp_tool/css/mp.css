@@ -8,7 +8,7 @@ ul{
 
 
 .pass{
-  background-color:#DEFFDE;
+  background-color:#A6FFA6;
   color:#002900;
 }
 .error{
@@ -16,12 +16,12 @@ ul{
   color:#FF9494;
 }
 .failed{
-  background-color:#FFD6D6;
+  background-color:#FF9C9C;
   color:#471919;
 }
 .natural{
   background-color: #FFFF99;
-  color: #666600;
+  color: #111;
 }
 
 div,h2{
@@ -112,4 +112,7 @@ mark.candidate{
   font-style:italic;
   color:#999;
   width:50px;
+}
+.stdxy-title h2{
+  margin-top:10px;
 }

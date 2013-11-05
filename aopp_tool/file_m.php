@@ -18,6 +18,9 @@ if(!$login){
       case 'liyan':
         $_SESSION['who'] = 'liyan';
         break;
+      case 'yunyi':
+        $_SESSION['who'] = 'yunyi';
+        break;
       case 'demo123':
         $_SESSION['who'] = 'demo';
         break;

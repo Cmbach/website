@@ -48,10 +48,17 @@ while($line = fgets($handle)){
   
   
   if($rmsea){
-    if(strstr($line,'C.I.')){
-      isset($check_uniq->ci) ? $check_uniq->ci++ : $check_uniq->ci = 1;
+    
+    if(strstr($line,'Estimate')){
+      isset($check_uniq->rmsea_est) ? $check_uniq->rmsea_est++ : $check_uniq->rmsea_est = 1;
       $vars = line_breaker($line);
       $index = count($vars)-1;
+      $result->rmsea_est = $vars[$index];
+    }
+    else if(strstr($line,'C.I.')){
+      isset($check_uniq->ci) ? $check_uniq->ci++ : $check_uniq->ci = 1;
+      $vars = line_breaker($line);
+      $index = count($vars)-2;
       $result->ci = $vars[$index];
     }
     else if(strstr($line,'CFI') && !strstr($line,'/')){
@@ -237,11 +244,18 @@ function table_handler(&$str){
       $test = floatval($vars[4]);
       $mark = ($test <= 0.1) ? ( ($test <= 0.05) ? 'pass': 'natural' ): 'failed';
       
-      $vars[4] = '<mark class="' . $mark . '">' . $vars[4] . '</mark>';
+      //$vars[4] = '<mark class="' . $mark . '">' . $vars[4] . '</mark>';
       
-      $tmp = $trivial ?'<tr class="trivial stdxy-values ' .$mark .'">' :'<tr class="stdxy-values ' .$mark .'">';
+      $tmp = $trivial ?'<tr class="trivial stdxy-values ">' :'<tr class="stdxy-values">';
+      $i = 0;
       foreach ($vars as $value){
-         $tmp .= "<td>".$value."</td>";
+        if($i == 1){
+          $tmp .= "<td> <mark class='$mark'>".$value." </mark> </td>";
+        }  
+        else{
+          $tmp .= "<td>".$value."</td>";
+        }
+        $i++;
       }
       $tmp .= '</tr>';
     }
@@ -277,22 +291,34 @@ function table_handler(&$str){
 $result_output = '';
 if(isset($result->chi_s)){
   if($result->chi_s >= 0.05){
-    $result_output .= '<li class="pass">Chi-Square Passed! <mark class="right">('.$result->chi_s.' > 0.05 oh yeah)</mark></li>';
+    $result_output .= '<li class="pass">Chi-Square Passed! <mark class="right">('.$result->chi_s.' >= 0.05 oh yeah)</mark></li>';
   }
   else{
-    $result_output .= '<li class="failed">Chi-Square FAILED! <mark class="right">('.$result->chi_s.' , expected > 0.05)</mark></li>';
+    $result_output .= '<li class="failed">Chi-Square FAILED! <mark class="right">('.$result->chi_s.' , expected >= 0.05)</mark></li>';
   }
 }
 else{
   $result_output .= '<li class="error">Missing Chi-Square Value!</li>';
 }
 
-if(isset($result->ci)){
-  if($result->ci <= 0.08){
-    $result_output .= '<li class="pass">C.I. > 90% Passed! <mark class="right">('.$result->ci.' < 0.08 oh yeah)</mark></li>';
+if(isset($result->rmsea_est)){
+  if($result->rmsea_est <= 0.08){
+    $result_output .= '<li class="pass">RMSEA Passed! <mark class="right">('.$result->rmsea_est.' <= 0.08 oh yeah)</mark></li>';
   }
   else{
-    $result_output .= '<li class="failed">C.I. > 90% FAILED! <mark class="right">('.$result->ci.' , expected < 0.08)</mark></li>';
+    $result_output .= '<li class="failed">RMSEA FAILED! <mark class="right">('.$result->rmsea_est.' , expected <= 0.08)</mark></li>';
+  }
+}
+else{
+  $result_output .= '<li class="error">Missing RMSEA est. Value!</li>';
+}
+
+if(isset($result->ci)){
+  if($result->ci <= 0.05){
+    $result_output .= '<li class="pass">C.I. > 90% Passed! <mark class="right">('.$result->ci.' <= 0.05 oh yeah)</mark></li>';
+  }
+  else{
+    $result_output .= '<li class="failed">C.I. > 90% FAILED! <mark class="right">('.$result->ci.' , expected <= 0.05)</mark></li>';
   }
 }
 else{
@@ -301,10 +327,10 @@ else{
 
 if(isset($result->cfi)){
   if($result->cfi >= 0.9){
-    $result_output .= '<li class="pass">CFI Passed! <mark class="right">('.$result->cfi.' > 0.9 oh yeah)</mark></li>';
+    $result_output .= '<li class="pass">CFI Passed! <mark class="right">('.$result->cfi.' >= 0.9 oh yeah)</mark></li>';
   }
   else{
-    $result_output .= '<li class="failed">CFI FAILED! <mark class="right">('.$result->cfi.' , expected > 0.9)</mark></li>';
+    $result_output .= '<li class="failed">CFI FAILED! <mark class="right">('.$result->cfi.' , expected >= 0.9)</mark></li>';
   }
 }
 else{
@@ -314,10 +340,10 @@ else{
 
 if(isset($result->tli)){
   if($result->tli >= 0.9){
-    $result_output .= '<li class="pass">TLI Passed! <mark class="right">('.$result->tli.' > 0.9 oh yeah)</mark></li>';
+    $result_output .= '<li class="pass">TLI Passed! <mark class="right">('.$result->tli.' >= 0.9 oh yeah)</mark></li>';
   }
   else{
-    $result_output .= '<li class="failed">TLI FAILED! <mark class="right">('.$result->tli.' , expected > 0.9)</mark></li>';
+    $result_output .= '<li class="failed">TLI FAILED! <mark class="right">('.$result->tli.' , expected >= 0.9)</mark></li>';
   }
 }
 else{
@@ -326,10 +352,10 @@ else{
 
 if(isset($result->srmr)){
   if($result->srmr <= 0.1){
-    $result_output .= '<li class="pass">SRMR Passed! <mark class="right">('.$result->srmr.' < 0.1 oh yeah)</mark></li>';
+    $result_output .= '<li class="pass">SRMR Passed! <mark class="right">('.$result->srmr.' <= 0.1 oh yeah)</mark></li>';
   }
   else{
-    $result_output .= '<li class="failed">SRMR FAILED! <mark class="right">('.$result->srmr.' , expected <0.1)</mark></li>';
+    $result_output .= '<li class="failed">SRMR FAILED! <mark class="right">('.$result->srmr.' , expected <= 0.1)</mark></li>';
   }
 }
 else{
@@ -393,6 +419,10 @@ if($check_uniq->output != 1){
 
 if($check_uniq->ci != 1){
   $error_msg .= '<li>ci: error, found'. $check_uniq->ci.", should be 1</li>";
+}
+
+if($check_uniq->rmsea_est != 1){
+  $error_msg .= '<li>rmsea_est: error, found'. $check_uniq->rmsea_est.", should be 1</li>";
 }
 
 if($check_uniq->chi_s != 2){
