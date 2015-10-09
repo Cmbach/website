@@ -1,0 +1,37 @@
+BODY {BACKGROUND-COLOR: #ffeeee; COLOR: black; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12pt}
+P  {FONT-SIZE: 10pt; text-align: justify;}
+TD {FONT-SIZE: 10pt}
+TR {FONT-SIZE: 10pt}
+
+A:link {COLOR: #0000ff; }
+A:visited {COLOR: #0036c9; TEXT-DECORATION: none}
+A:hover {COLOR: #0036c9; TEXT-DECORATION: none}
+
+.menu1 {FONT-SIZE: 8pt; FONT-WEIGHT: bold; TEXT-ALIGN: left; VERTICAL-ALIGN: top}
+.menu1align {VERTICAL-ALIGN: top}
+.menu2 {FONT-SIZE: 7pt; FONT-WEIGHT: bold; TEXT-ALIGN: left; VERTICAL-ALIGN: top}
+.menu3 {FONT-SIZE: 6pt; FONT-WEIGHT: bold; TEXT-ALIGN: left; VERTICAL-ALIGN: top}
+.heading1 {BACKGROUND-COLOR: #9bb3b0; COLOR: white; FONT-SIZE: 18pt; FONT-WEIGHT: bold; TEXT-DECORATION: none; TEXT-ALIGN: center}
+.heading2 {BACKGROUND-COLOR: #9bb3b0; COLOR: white; FONT-SIZE: 14pt; FONT-WEIGHT: bold; TEXT-DECORATION: none; TEXT-ALIGN: center}
+.heading3 {BACKGROUND-COLOR: #cddeed; COLOR: black; FONT-SIZE: 12pt; FONT-WEIGHT: bold; TEXT-DECORATION: none; TEXT-ALIGN: center}
+.heading4 {BACKGROUND-COLOR: #ebf5fc; COLOR: black; FONT-SIZE: 10pt; FONT-WEIGHT: bold}
+.tableheading1 {BACKGROUND-COLOR: #ebf1f7; COLOR: black; FONT-WEIGHT: bold}
+.tableheading2 {BACKGROUND-COLOR: #6699cc; COLOR: white; FONT-WEIGHT: bold}
+.tablecell1 {BACKGROUND-COLOR: #f8f8f8; COLOR: black}
+.tablecell2 { BACKGROUND-COLOR: #ffffe5; COLOR: black}
+.footer {FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 10pt; TEXT-ALIGN: center}
+.vertline {BORDER-RIGHT: #000080 2px solid}
+.maintable {WIDTH: 740px}
+
+.r {PADDING-RIGHT: 15px; PADDING-LEFT: 15px; BACKGROUND: repeat-x; PADDING-BOTTOM: 3em; WIDTH: 25%; PADDING-TOP: 3em}
+.r LI {MARGIN: 4px 1%; LIST-STYLE-TYPE: none}
+.r FORM {PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px}
+
+.bx A {PADDING-RIGHT: 6px; DISPLAY: block; PADDING-LEFT: 6px; PADDING-BOTTOM: 6px; PADDING-TOP: 8px; TEXT-ALIGN: left; TEXT-DECORATION: none}
+
+
+.box1 { 
+ left: 5px; top: 5px; width:180px; position: absolute; float:left; margin-right: 20px; 
+}
+
+p box1{float:left; margin-left:8px}
